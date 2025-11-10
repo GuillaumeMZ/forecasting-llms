@@ -1,0 +1,1852 @@
+[
+  {
+    "id": 0,
+    "questions": [
+      "How many missions to the International Space Station will be conducted until the year 2025?",
+      "How many missions to the International Space Station will be conducted until the year 2028?",
+      "How many missions to the International Space Station will be conducted until the year 2032?",
+      "How many missions to the International Space Station will be conducted until the year 2036?",
+      "How many missions to the International Space Station will be conducted until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 58",
+        "[Answer] 100",
+        "[Answer] 65 N"
+      ],
+      [
+        "[Answer] 120",
+        "[Answer] 250",
+        "[Answer] 450"
+      ],
+      [
+        "[Answer] 230",
+        "[Answer] 150",
+        "[Answer] 350"
+      ],
+      [
+        "[Answer] 300",
+        "As of 2024, there have been over 250 missions to the International Space Station (ISS). Currently, the ISS is expected to be operational until at least 2030, with discussions about extending to 2036 or beyond. \n\nAnnual missions to the ISS typically include crewed expeditions (around 4-6 per year recently) plus cargo resupply missions (~4-6 per year), totaling roughly 8-12 missions per year.\n\nEstimating from 2024 to 2036 is 13 years. Assuming an average of 10 missions per year:\n\n13 years * 10 missions/year = 130 missions\n\nAdding this to the approximate 250 missions that have already flown:\n\n250 + 130 = 380 missions approximately by 2036.\n\n[Answer] 380",
+        "[Answer] 300"
+      ],
+      [
+        "[Answer] 650",
+        "[Answer] 300",
+        "[Answer] 400"
+      ]
+    ]
+  },
+  {
+    "id": 1,
+    "questions": [
+      "How many people will have successfully crossed Antarctica on foot by the year 2025?",
+      "How many people will have successfully crossed Antarctica on foot by the year 2028?",
+      "How many people will have successfully crossed Antarctica on foot by the year 2032?",
+      "How many people will have successfully crossed Antarctica on foot by the year 2036?",
+      "How many people will have successfully crossed Antarctica on foot by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 20",
+        "[Answer] 20",
+        "[Answer] 100"
+      ],
+      [
+        "[Answer] 300",
+        "[Answer] 60",
+        "[Answer] 20N"
+      ],
+      [
+        "[Answer] 40",
+        "[Answer] 200",
+        "[Answer] 20"
+      ],
+      [
+        "[Answer] 30",
+        "As of now, around 20 to 30 people have successfully crossed Antarctica on foot, but the exact current number can vary based on definitions of \"crossing.\" Assuming roughly 1-2 new crossings every decade and continuing at a similar pace through 2036, an estimate would be about 40 to 50 people in total by 2036.\n\n[Answer] 45",
+        "As of 2024, approximately 20 people have successfully crossed Antarctica on foot. Given the extreme difficulty and rarity of the feat, it is reasonable to estimate a moderate increase over the next 12 years. Assuming a few successful crossings every year, an estimated total by 2036 might be around 50 people.\n\n[Answer] 50 N"
+      ],
+      [
+        "[Answer] 100",
+        "[Answer] 200",
+        "[Answer] 30"
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "questions": [
+      "How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year 2025?",
+      "How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year 2028?",
+      "How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year 2032?",
+      "How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year 2036?",
+      "How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 1000000",
+        "[Answer] 10000 N",
+        "[Answer] 2000000"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0 N",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 1000000 N",
+        "[Answer] 0",
+        "[Answer] 0 N"
+      ],
+      [
+        "[Answer] 0",
+        "I don't have access to specific future population movement data or projections for the Kamchatka Peninsula by 2040. Estimating how many people will have journeyed across Kamchatka involves numerous unpredictable factors like migration trends, infrastructure development, tourism, and political decisions.\n\nAs such, I cannot provide a numeric estimate for this question.",
+        "[Answer] 0"
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "questions": [
+      "How many major breakthroughs in renewable energy technology will be made until the year 2025?",
+      "How many major breakthroughs in renewable energy technology will be made until the year 2028?",
+      "How many major breakthroughs in renewable energy technology will be made until the year 2032?",
+      "How many major breakthroughs in renewable energy technology will be made until the year 2036?",
+      "How many major breakthroughs in renewable energy technology will be made until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 0",
+        "[Answer] 0 N",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0 N",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] N",
+        "[Answer] N",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 12",
+        "[Answer] 7 N",
+        "[Answer] 0"
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "questions": [
+      "What will be the women's 800 meter run world record by the year 2025?",
+      "What will be the women's 800 meter run world record by the year 2028?",
+      "What will be the women's 800 meter run world record by the year 2032?",
+      "What will be the women's 800 meter run world record by the year 2036?",
+      "What will be the women's 800 meter run world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 1:53.28 N",
+        "[Answer] 1:53.28",
+        "[Answer] 1:53.28"
+      ],
+      [
+        "[Answer] 1:55.0 N",
+        "[Answer] 1:53 N",
+        "[Answer] 1:53.0"
+      ],
+      [
+        "[Answer] 1:53.0",
+        "[Answer] 1:54.0",
+        "[Answer] 1:53.00 N"
+      ],
+      [
+        "[Answer] 1:52.00",
+        "[Answer] 1:53 N",
+        "[Answer] 1:54.0 N"
+      ],
+      [
+        "[Answer] Unable to predict exact future record",
+        "[Answer] 1:52.00 N",
+        "[Answer] 1:54.0 N"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "questions": [
+      "How many people will have traversed the entire Amazon River by the year 2025?",
+      "How many people will have traversed the entire Amazon River by the year 2028?",
+      "How many people will have traversed the entire Amazon River by the year 2032?",
+      "How many people will have traversed the entire Amazon River by the year 2036?",
+      "How many people will have traversed the entire Amazon River by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 30",
+        "[Answer] 50 N",
+        "[Answer] 500"
+      ],
+      [
+        "[Answer] 50",
+        "[Answer] 20",
+        "[Answer] 1000"
+      ],
+      [
+        "[Answer] 50",
+        "[Answer] 3000",
+        "The number of people who have traversed the entire Amazon River is very small due to the river's length, remote location, and challenging conditions. Historically, only a few dozen adventurers, explorers, and researchers have completed full traverses. Given the rarity and difficulty, by 2032, the total number might be roughly in the low hundreds at most.\n\n[Answer] 150 N"
+      ],
+      [
+        "[Answer] 50N",
+        "[Answer] 2000",
+        "[Answer] 1000"
+      ],
+      [
+        "[Answer] 50",
+        "[Answer] 50",
+        "[Answer] 5000"
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "questions": [
+      "How many people will have completed a solo, unassisted trek to both the North and South Poles by the year 2025?",
+      "How many people will have completed a solo, unassisted trek to both the North and South Poles by the year 2028?",
+      "How many people will have completed a solo, unassisted trek to both the North and South Poles by the year 2032?",
+      "How many people will have completed a solo, unassisted trek to both the North and South Poles by the year 2036?",
+      "How many people will have completed a solo, unassisted trek to both the North and South Poles by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 20",
+        "[Answer] 20",
+        "[Answer] 30"
+      ],
+      [
+        "As of 2024, fewer than 20 people have completed solo, unassisted treks to both the North and South Poles. Considering current expedition trends and the increasing difficulty of such journeys, it is estimated that by 2028, approximately 5 more individuals might achieve this feat. \n\n[Answer] 25 N",
+        "[Answer] 70",
+        "As of 2024, approximately 50 people have completed a solo, unassisted trek to both the North and South Poles. Given the increasing popularity and accessibility of polar expeditions, it is reasonable to project that roughly 5 to 7 more individuals per year might achieve this feat.\n\nEstimating 5 people per year over the next 4 years (2025-2028):\n\n50 + (5 × 4) = 50 + 20 = 70\n\n[Answer] 70 N"
+      ],
+      [
+        "As of 2024, fewer than 30 people have completed a solo, unassisted trek to both the North and South Poles. Given the extreme difficulty, physical risks, and high costs involved, the number is expected to increase slowly. By 2032, it is reasonable to estimate a modest increase as polar exploration continues but remains highly challenging.\n\n[Answer] 40",
+        "[Answer] 30",
+        "As of 2024, approximately 30 people have completed a solo, unassisted trek to both the North and South Poles. Given the extreme difficulty, costs, and the small number of adventurers undertaking such journeys annually, it is reasonable to estimate that about 2 to 3 more individuals per year might accomplish this feat.\n\nOver the next 8 years (2024 to 2032), assuming steady interest and no major changes:\n\n8 years × ~3 people/year = 24 additional people\n\nAdding to the existing 30:\n\n30 + 24 = 54\n\n[Answer] 54"
+      ],
+      [
+        "As of 2024, fewer than 20 people have completed solo, unassisted treks to both the North and South Poles. Considering the increasing interest in polar exploration but factoring in the extreme difficulty, physical demands, high costs, and limited accessibility of such expeditions, a modest increase in completions can be expected over the next 12 years.\n\nEstimating that about 1 to 2 more individuals per year might accomplish this feat (given that some years see 0, some 1, or occasionally 2), over 12 years this adds approximately 12 to 24 more people.\n\nAdding this to the current number (~20) gives a total somewhere around 30 to 45 by 2036.\n\nChoosing a reasonable midpoint estimate:\n\n[Answer] 35",
+        "[Answer] 20",
+        "[Answer] 25 N"
+      ],
+      [
+        "There have been very few individuals who have completed solo, unassisted treks to both the North and South Poles up to now, with only a handful achieving this extremely challenging feat. Considering the difficulty, rarity of such expeditions, and assuming a modest increase in such achievements over the next two decades, a reasonable estimate would be approximately 10–15 people by 2040.\n\n[Answer] 12 N",
+        "As of now, fewer than 20 people have completed a solo, unassisted trek to both the North and South Poles. Given the extreme difficulty and limited number of attempts, and assuming no significant surge in this niche adventure by 2040, the estimated total number of people who will have completed this feat by then is still quite low.\n\n[Answer] 25 N",
+        "As of now, fewer than 20 people have completed solo, unassisted treks to both the North and South Poles. Given the extreme difficulty and rarity of these expeditions, it's reasonable to estimate only a modest increase in such achievements by 2040.\n\nConsidering current trends and the small number of individuals accomplishing this feat:\n\n[Answer] 35 N"
+      ]
+    ]
+  },
+  {
+    "id": 7,
+    "questions": [
+      "What will be the 100 meter men's sprint record by the year 2025?",
+      "What will be the 100 meter men's sprint record by the year 2028?",
+      "What will be the 100 meter men's sprint record by the year 2032?",
+      "What will be the 100 meter men's sprint record by the year 2036?",
+      "What will be the 100 meter men's sprint record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 9.45 N",
+        "[Answer] 9.40",
+        "[Answer] 9.4"
+      ],
+      [
+        "[Answer] 9.39",
+        "[Answer] 9.45",
+        "[Answer] 9.40 N"
+      ],
+      [
+        "[Answer] 9.40",
+        "[Answer] 9.30",
+        "[Answer] 9.30"
+      ],
+      [
+        "[Answer] 9.40",
+        "[Answer] 9.40",
+        "[Answer] 9.30"
+      ],
+      [
+        "[Answer] 9.35 N",
+        "[Answer] 9.20 N",
+        "[Answer] 9.30"
+      ]
+    ]
+  },
+  {
+    "id": 8,
+    "questions": [
+      "What will be the men's discus throw world record by the year 2025?",
+      "What will be the men's discus throw world record by the year 2028?",
+      "What will be the men's discus throw world record by the year 2032?",
+      "What will be the men's discus throw world record by the year 2036?",
+      "What will be the men's discus throw world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 74.08 N",
+        "[Answer] 74.08",
+        "[Answer] 74"
+      ],
+      [
+        "[Answer] 74.50 N",
+        "[Answer] 75 meters",
+        "[Answer] 74 N"
+      ],
+      [
+        "[Answer] 75 meters",
+        "[Answer] 75",
+        "[Answer] 75"
+      ],
+      [
+        "[Answer] 75",
+        "[Answer] 76 meters",
+        "[Answer] 75 meters"
+      ],
+      [
+        "[Answer] 80",
+        "[Answer] 78",
+        "[Answer] 74.50 N"
+      ]
+    ]
+  },
+  {
+    "id": 9,
+    "questions": [
+      "What will be the women's 4x400 meter relay world record by the year 2025?",
+      "What will be the women's 4x400 meter relay world record by the year 2028?",
+      "What will be the women's 4x400 meter relay world record by the year 2032?",
+      "What will be the women's 4x400 meter relay world record by the year 2036?",
+      "What will be the women's 4x400 meter relay world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 3:15.17",
+        "[Answer] 3:15.17",
+        "[Answer] 3:15.17"
+      ],
+      [
+        "[Answer] 3:15.0",
+        "[Answer] 3:15.17",
+        "[Answer] 3:14.00"
+      ],
+      [
+        "[Answer] 3:14.00",
+        "[Answer] 3:14.50",
+        "[Answer] 3:14.50"
+      ],
+      [
+        "[Answer] 3:14.00",
+        "[Answer] 3:14.0",
+        "[Answer] 3:15.0"
+      ],
+      [
+        "[Answer] 3:12.15",
+        "[Answer] 3:12.50",
+        "[Answer] 3:13.00"
+      ]
+    ]
+  },
+  {
+    "id": 10,
+    "questions": [
+      "What will be the women's 200 meter freestyle swimming record by the year 2025?",
+      "What will be the women's 200 meter freestyle swimming record by the year 2028?",
+      "What will be the women's 200 meter freestyle swimming record by the year 2032?",
+      "What will be the women's 200 meter freestyle swimming record by the year 2036?",
+      "What will be the women's 200 meter freestyle swimming record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 1:52.98",
+        "[Answer] 1:52.50",
+        "[Answer] 1:52.00"
+      ],
+      [
+        "[Answer] 1:52.00",
+        "[Answer] 1:52.00 N",
+        "[Answer] 1:52.00 N"
+      ],
+      [
+        "[Answer] 1:51.00 N",
+        "[Answer] 1:52.00",
+        "[Answer] 1:51.0 N"
+      ],
+      [
+        "[Answer] 1:52.00",
+        "[Answer] 1:45.0",
+        "[Answer] 1:52.2"
+      ],
+      [
+        "[Answer] 1:50.00 N",
+        "[Answer] 1:50.00 N",
+        "[Answer] 1:50.00"
+      ]
+    ]
+  },
+  {
+    "id": 11,
+    "questions": [
+      "What will be the men's pole vault world record by the year 2025?",
+      "What will be the men's pole vault world record by the year 2028?",
+      "What will be the men's pole vault world record by the year 2032?",
+      "What will be the men's pole vault world record by the year 2036?",
+      "What will be the men's pole vault world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 6.25 N",
+        "[Answer] 6.25 N",
+        "[Answer] 6.23"
+      ],
+      [
+        "[Answer] 6.30 N",
+        "[Answer] 6.30 N",
+        "[Answer] 6.25 N"
+      ],
+      [
+        "[Answer] 6.35",
+        "[Answer] 6.30 N",
+        "[Answer] 6.40"
+      ],
+      [
+        "[Answer] 6.30 N",
+        "[Answer] 6.50",
+        "[Answer] 6.30 N"
+      ],
+      [
+        "[Answer] 7.90 N",
+        "[Answer] 6.50 m",
+        "[Answer] 6.50"
+      ]
+    ]
+  },
+  {
+    "id": 12,
+    "questions": [
+      "What will be the women's 400 meter individual medley swimming record by the year 2025",
+      "What will be the women's 400 meter individual medley swimming record by the year 2028",
+      "What will be the women's 400 meter individual medley swimming record by the year 2032",
+      "What will be the women's 400 meter individual medley swimming record by the year 2036",
+      "What will be the women's 400 meter individual medley swimming record by the year 2040"
+    ],
+    "responses": [
+      [
+        "[Answer] 4:25.00 N",
+        "[Answer] 4:25.00 N",
+        "[Answer] 4:25.00 N"
+      ],
+      [
+        "[Answer] 4:25.0 N",
+        "[Answer] 4:25.00",
+        "[Answer] 4:25.00 N"
+      ],
+      [
+        "[Answer] 4:24.00 N",
+        "[Answer] 4 minutes 20 seconds",
+        "[Answer] 4:20.0 N"
+      ],
+      [
+        "[Answer] 4:20.00 N",
+        "[Answer] 4:20.00 N",
+        "[Answer] 4:25.00 N"
+      ],
+      [
+        "[Answer] 4:20.00 N",
+        "[Answer] 4:22.00 N",
+        "[Answer] 4:20.0 N"
+      ]
+    ]
+  },
+  {
+    "id": 13,
+    "questions": [
+      "What will be the women's 4x100 meter relay world record by the year 2025?",
+      "What will be the women's 4x100 meter relay world record by the year 2028?",
+      "What will be the women's 4x100 meter relay world record by the year 2032?",
+      "What will be the women's 4x100 meter relay world record by the year 2036?",
+      "What will be the women's 4x100 meter relay world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[40.10] N",
+        "[Answer] 40.82 N",
+        "[Answer] 40.82"
+      ],
+      [
+        "[Answer] 40.10 N",
+        "[Answer] 40.50",
+        "[Answer] 40.00 N"
+      ],
+      [
+        "[Answer] 40.80 N",
+        "[Answer] 40.10 N",
+        "[Answer] 40.0 N"
+      ],
+      [
+        "[Answer] 40.0 N",
+        "[Answer] 40.0 N",
+        "[Answer] 40.0"
+      ],
+      [
+        "[Answer] 40.0 N",
+        "[Answer] 40.00 N",
+        "[Answer] 40.0"
+      ]
+    ]
+  },
+  {
+    "id": 14,
+    "questions": [
+      "How many people will have reached the summit of K2, the world's second-highest mountain, by the year 2025?",
+      "How many people will have reached the summit of K2, the world's second-highest mountain, by the year 2028?",
+      "How many people will have reached the summit of K2, the world's second-highest mountain, by the year 2032?",
+      "How many people will have reached the summit of K2, the world's second-highest mountain, by the year 2036?",
+      "How many people will have reached the summit of K2, the world's second-highest mountain, by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 4500 N",
+        "[Answer] 4000",
+        "Around 4500 people have successfully summited K2 by mid-2023. Given the mountain's dangerous conditions, the number of additional summits by 2025 is expected to be relatively small, perhaps adding about 200 more people in two years.\n\n[Answer] 4700"
+      ],
+      [
+        "[Answer] 1500",
+        "[Answer] 1500",
+        "As of 2024, approximately 600 to 700 climbers have reached the summit of K2. The annual number of successful summits varies, but recent years have seen roughly 20 to 30 successful summits per climbing season. Assuming this rate continues for the next four years (2025-2028), we can estimate an additional 80 to 120 successful summits.\n\nTaking a midpoint estimate of 650 proven summits by 2024 plus 100 new summits by 2028 yields about 750 total summits by 2028.\n\n[Answer] 750"
+      ],
+      [
+        "[Answer] 1500",
+        "As of 2024, approximately 500 people have successfully summited K2. Given its difficulty and the increasing interest in high-altitude mountaineering, the number of successful summits is expected to rise gradually. Estimating an average of about 20 new summits per year over the next 8 years (2024 to 2032) adds roughly 160 more summits.\n\nSo, the estimated total by 2032 would be:\n\n500 (current) + 160 (additional) = 660\n\n[Answer] 660",
+        "[Answer] 600"
+      ],
+      [
+        "As of 2024, approximately 500 people have reached the summit of K2. Assuming a steady rate of about 10 successful summits per year over the next 12 years (from 2024 to 2036), the total additional summits would be about 120.\n\n500 + 120 = 620\n\n[Answer] 620",
+        "The number of people who have reached the summit of K2 as of recent years is approximately 500. K2 is a very challenging and dangerous mountain, with limited successful ascents each year. Estimating future summits depends on factors like climbing conditions, the number of expeditions, and mountaineering advancements.\n\nAssuming an average of about 10 successful summits per year (a reasonable assumption given historical data from the last decade, which often saw 3 to 20 summits per year), over the next 13 years (2024 to 2036):\n\n10 summits/year * 13 years = 130 additional summits.\n\nAdding this to the current total:\n\n500 + 130 = 630\n\n[Answer] 630",
+        "As of recent estimates, around 500 people have reached the summit of K2 by the early 2020s. Given the increasing popularity of high-altitude mountaineering and improving climbing technology, an estimated average of about 10 climbers summit K2 per year.\n\nFrom 2024 to 2036 is 13 years.\n\nAdditional climbers expected by 2036: 13 years * 10 climbers/year = 130 climbers.\n\nTotal climbers by 2036 = 500 (current) + 130 = 630.\n\n[Answer] 630"
+      ],
+      [
+        "[Answer] 1500",
+        "[Answer] 7000",
+        "[Answer] 8000 N"
+      ]
+    ]
+  },
+  {
+    "id": 15,
+    "questions": [
+      "How many people will have successfully navigated the Northwest Passage by the year 2025?",
+      "How many people will have successfully navigated the Northwest Passage by the year 2028?",
+      "How many people will have successfully navigated the Northwest Passage by the year 2032?",
+      "How many people will have successfully navigated the Northwest Passage by the year 2036?",
+      "How many people will have successfully navigated the Northwest Passage by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 2000",
+        "[Answer] 1000",
+        "[Answer] 3000 N"
+      ],
+      [
+        "Approximately 300 people will have successfully navigated the Northwest Passage by the year 2028.  \n[Answer] 300",
+        "[Answer] 5000",
+        "[Answer] 1000 N"
+      ],
+      [
+        "[Answer] 4000",
+        "[Answer] 1000",
+        "[Answer] 500"
+      ],
+      [
+        "[Answer] 3000N",
+        "[Answer] 1000",
+        "As of 2024, a small but increasing number of ships and explorers have successfully navigated the Northwest Passage, mainly due to melting Arctic ice. The passage was first successfully navigated in 1903-1906 by Roald Amundsen. Since then, with climate change and advances in navigation technology, more vessels have made the trip, with annual attempts increasing in recent years.\n\nConsidering current trends, the difficulty and danger remain significant, but accessibility is improving. Annually, around a handful of vessels and expeditions navigate the Passage. Assuming a modest growth in successful transits due to improved conditions and increased interest, the total number by 2036 could be estimated.\n\nAs of now, approximately 100-200 successful complete passages have been recorded (including repeated trips and different vessels) over the last century.\n\nEstimating about 5-10 successful passages per year on average from the present until 2036 (12 years from 2024) adds roughly another 60-120, making the total count approximately 160-320 by 2036.\n\nSelecting a midpoint estimate:\n\n[Answer] 240 N"
+      ],
+      [
+        "As of now, approximately a few hundred people have successfully navigated the Northwest Passage since its first traversal. Given the increasing interest, improved technology, and climate change reducing ice coverage, the number of successful navigations is expected to increase over the coming decades.\n\nEstimating the number by 2040 involves considering current trends:\n\n- By 2024, let's estimate about 300 successful navigations in total.\n- The number of annual successful trips is likely to increase, potentially reaching dozens per year by the 2030s.\n- Assuming a gradual increase from current low numbers to about 30-50 per year by 2040.\n- Summing gradual increases over the next 16 years leads roughly to an additional 600-700 successful trips.\n\nAdding to the existing 300, a rough total by 2040 could be about 900-1000.\n\n[Answer] 1000",
+        "[Answer] 5000",
+        "[Answer] 1000"
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "questions": [
+      "What will be the men's high jump world record by the year 2025?",
+      "What will be the men's high jump world record by the year 2028?",
+      "What will be the men's high jump world record by the year 2032?",
+      "What will be the men's high jump world record by the year 2036?",
+      "What will be the men's high jump world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 2.48 N",
+        "[Answer] 2.46 N",
+        "[Answer] 2.45 N"
+      ],
+      [
+        "[Answer] 2.50 N",
+        "[Answer] 2.50 N",
+        "[Answer] 2.50 N"
+      ],
+      [
+        "[Answer] 2.50 N",
+        "[Answer] 2.50 N",
+        "[Answer] 2.50"
+      ],
+      [
+        "[Answer] 2.50 N",
+        "[Answer] 2.50",
+        "[Answer] 2.50 N"
+      ],
+      [
+        "[Answer] 2.50 N",
+        "[Answer] 2.51 N",
+        "[Answer] 2.50 N"
+      ]
+    ]
+  },
+  {
+    "id": 17,
+    "questions": [
+      "What will be the women's 100 meter hurdles world record by the year 2025?",
+      "What will be the women's 100 meter hurdles world record by the year 2028?",
+      "What will be the women's 100 meter hurdles world record by the year 2032?",
+      "What will be the women's 100 meter hurdles world record by the year 2036?",
+      "What will be the women's 100 meter hurdles world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 12.12 N",
+        "[Answer] 12.12 N",
+        "[Answer] 12.20"
+      ],
+      [
+        "[Answer] 12.00",
+        "[Answer] 12.20 N",
+        "[Answer] 12.10 N"
+      ],
+      [
+        "[Answer] 11.00",
+        "[Answer] 12.20 N",
+        "[Answer] 12.20"
+      ],
+      [
+        "[Answer] 11.0",
+        "[Answer] 12.20 N",
+        "[Answer] 12.20 N"
+      ],
+      [
+        "[Answer] 12.00",
+        "[Answer] 12.20 N",
+        "[Answer] 11.45 N"
+      ]
+    ]
+  },
+  {
+    "id": 18,
+    "questions": [
+      "What will be the men's javelin throw world record by the year 2025?",
+      "What will be the men's javelin throw world record by the year 2028?",
+      "What will be the men's javelin throw world record by the year 2032?",
+      "What will be the men's javelin throw world record by the year 2036?",
+      "What will be the men's javelin throw world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 98.48",
+        "[Answer] 99.00 N",
+        "[Answer] 99.00 N"
+      ],
+      [
+        "[Answer] 99 N",
+        "[Answer] 100.5",
+        "[Answer] 101 N"
+      ],
+      [
+        "[Answer] 100 meters",
+        "[Answer] 100 m",
+        "[Answer] 98"
+      ],
+      [
+        "[Answer] 100 N",
+        "[Answer] 103",
+        "[Answer] 104.80"
+      ],
+      [
+        "[Answer] 104 meters",
+        "[Answer] 103.0 N",
+        "[Answer] 100"
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "questions": [
+      "What will be the women's long jump world record by the year 2025?",
+      "What will be the women's long jump world record by the year 2028?",
+      "What will be the women's long jump world record by the year 2032?",
+      "What will be the women's long jump world record by the year 2036?",
+      "What will be the women's long jump world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[7.55] N",
+        "[Answer] 7.52 N",
+        "7.52 N"
+      ],
+      [
+        "[Answer] 7.50 N",
+        "[Answer] 7.52",
+        "[Answer] 7.45 N"
+      ],
+      [
+        "[Answer] 7.50 N",
+        "[Answer] 7.70 N",
+        "[Answer] 7.65 N"
+      ],
+      [
+        "[Answer] 7.60 N",
+        "[Answer] 7.45 N",
+        "[Answer] 7.45 N"
+      ],
+      [
+        "[Answer] 7.50 N",
+        "[Answer] 7.70 N",
+        "[Answer] 7.90 N"
+      ]
+    ]
+  },
+  {
+    "id": 20,
+    "questions": [
+      "What will be the men's triple jump world record by the year 2025?",
+      "What will be the men's triple jump world record by the year 2028?",
+      "What will be the men's triple jump world record by the year 2032?",
+      "What will be the men's triple jump world record by the year 2036?",
+      "What will be the men's triple jump world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 18.20",
+        "[Answer] 18.29",
+        "[Answer] 18 N"
+      ],
+      [
+        "[Answer] 18.20 N",
+        "[Answer] 18.50 N",
+        "[18.40] N"
+      ],
+      [
+        "[Answer] 18.45",
+        "[Answer] 18.50 N",
+        "[19.90] N"
+      ],
+      [
+        "[19.90] N",
+        "[Answer] 18.30 N",
+        "[Answer] 18.50 N"
+      ],
+      [
+        "[Answer] 18.30 N",
+        "[Answer] 18.50 N",
+        "[Answer] 18.50 N"
+      ]
+    ]
+  },
+  {
+    "id": 21,
+    "questions": [
+      "What will be the men's 5000 meter run world record by the year 2025",
+      "What will be the men's 5000 meter run world record by the year 2028",
+      "What will be the men's 5000 meter run world record by the year 2032",
+      "What will be the men's 5000 meter run world record by the year 2036",
+      "What will be the men's 5000 meter run world record by the year 2040"
+    ],
+    "responses": [
+      [
+        "[Answer] 12:30 N",
+        "[Answer] 12600",
+        "[Answer] 12530"
+      ],
+      [
+        "[Answer] 1260",
+        "[Answer] 12:30",
+        "[Answer] 12:30 N"
+      ],
+      [
+        "[Answer] 1260 seconds",
+        "[Answer] 12:30.0",
+        "[Answer] 12:30.00"
+      ],
+      [
+        "[Answer] 12500",
+        "[Answer] 12600 N",
+        "[Answer] 12600"
+      ],
+      [
+        "[Answer] 12:25.0",
+        "[Answer] 12:20",
+        "[Answer] 12:20.00 N"
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "questions": [
+      "What will be the men's 50 meter freestyle swimming record by the year 2025?",
+      "What will be the men's 50 meter freestyle swimming record by the year 2028?",
+      "What will be the men's 50 meter freestyle swimming record by the year 2032?",
+      "What will be the men's 50 meter freestyle swimming record by the year 2036?",
+      "What will be the men's 50 meter freestyle swimming record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 20.91",
+        "[Answer] 20.90",
+        "[Answer] 20.91"
+      ],
+      [
+        "[Answer] 20.5 N",
+        "[Answer] 20.5",
+        "[Answer] 20.5 N"
+      ],
+      [
+        "[Answer] 20.90",
+        "[Answer] 20.90",
+        "[Answer] 20.8"
+      ],
+      [
+        "[Answer] 20.0 N",
+        "[Answer] 20.5",
+        "[Answer] 20.0"
+      ],
+      [
+        "[Answer] 20.50 N",
+        "[Answer] 20.00 N",
+        "[Answer] 20.5 N"
+      ]
+    ]
+  },
+  {
+    "id": 23,
+    "questions": [
+      "What will be the women's hammer throw world record by the year 2025?",
+      "What will be the women's hammer throw world record by the year 2028?",
+      "What will be the women's hammer throw world record by the year 2032?",
+      "What will be the women's hammer throw world record by the year 2036?",
+      "What will be the women's hammer throw world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 82",
+        "[Answer] 82.00",
+        "[Answer] 82.00 N"
+      ],
+      [
+        "[Answer] 82.50",
+        "[Answer] 83.00 N",
+        "[Answer] 83"
+      ],
+      [
+        "[Answer] 85 meters",
+        "[Answer] 85.5",
+        "[Answer] 83"
+      ],
+      [
+        "[Answer] 83.5 N",
+        "[Answer] 83.5 N",
+        "[Answer] 83.50"
+      ],
+      [
+        "[Answer] 85.5 N",
+        "[Answer] 85",
+        "[Answer] 87 N"
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "questions": [
+      "What will be the men's 10,000 meter run world record by the year 2025?",
+      "What will be the men's 10,000 meter run world record by the year 2028?",
+      "What will be the men's 10,000 meter run world record by the year 2032?",
+      "What will be the men's 10,000 meter run world record by the year 2036?",
+      "What will be the men's 10,000 meter run world record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 2620",
+        "[Answer] 2620",
+        "[Answer] 1260 seconds"
+      ],
+      [
+        "[Answer] 2600 N",
+        "[Answer] 2620 N",
+        "[Answer] 2620 N"
+      ],
+      [
+        "[Answer] 26:10.00",
+        "[Answer] 25:30",
+        "[Answer] 2620"
+      ],
+      [
+        "[Answer] 25:30 N",
+        "[Answer] 26200",
+        "[Answer] 25:15 N"
+      ],
+      [
+        "[Answer] 26:20",
+        "[Answer] 25:00.00",
+        "[Answer] 26:10.00 N"
+      ]
+    ]
+  },
+  {
+    "id": 25,
+    "questions": [
+      "How many people will have visited the North Pole by the year 2025?",
+      "How many people will have visited the North Pole by the year 2028?",
+      "How many people will have visited the North Pole by the year 2032?",
+      "How many people will have visited the North Pole by the year 2036?",
+      "How many people will have visited the North Pole by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 5000",
+        "[Answer] 5000",
+        "[Answer] 5,000 N"
+      ],
+      [
+        "[Answer] 5000",
+        "[Answer] 6000",
+        "[Answer] 5000"
+      ],
+      [
+        "[Answer] 20,000 N",
+        "[Answer] 10000 N",
+        "[Answer] 200000"
+      ],
+      [
+        "[Answer] 15000",
+        "[Answer] 8000",
+        "[Answer] 8000"
+      ],
+      [
+        "[Answer] 7000",
+        "[Answer] 10,000,000",
+        "[Answer] 10,000,000"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "questions": [
+      "How many people will have explored the remote depths of the Greenland ice sheet by the year 2025?",
+      "How many people will have explored the remote depths of the Greenland ice sheet by the year 2028?",
+      "How many people will have explored the remote depths of the Greenland ice sheet by the year 2032?",
+      "How many people will have explored the remote depths of the Greenland ice sheet by the year 2036?",
+      "How many people will have explored the remote depths of the Greenland ice sheet by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 1000 N",
+        "[Answer] 1000",
+        "[Answer] 0 N"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 1000",
+        "[Answer] 360"
+      ],
+      [
+        "[Answer] 50",
+        "[Answer] 1000 N",
+        "[Answer] 50"
+      ],
+      [
+        "[Answer] 50 N",
+        "[Answer] 300",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 1000 N",
+        "[Answer] 5000",
+        "[Answer] 0"
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "questions": [
+      "How many successful Mars missions will be launched by space agencies until the year 2025?",
+      "How many successful Mars missions will be launched by space agencies until the year 2028?",
+      "How many successful Mars missions will be launched by space agencies until the year 2032?",
+      "How many successful Mars missions will be launched by space agencies until the year 2036?",
+      "How many successful Mars missions will be launched by space agencies until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 50",
+        "[Answer] 25",
+        "As of June 2024, there have been about 25 successful Mars missions (including orbiters, landers, and rovers) launched by various space agencies since the beginning of Mars exploration. Considering planned launches expected to occur until the end of 2025, including missions from NASA, ESA, CNSA, and other agencies, approximately 3 additional successful Mars missions are anticipated.\n\n[Answer] 28 N"
+      ],
+      [
+        "[Answer] 13",
+        "[Answer] 10",
+        "[Answer] 14"
+      ],
+      [
+        "[Answer] 15",
+        "[Answer] 10 N",
+        "[Answer] 30"
+      ],
+      [
+        "[Answer] 36",
+        "[Answer] 0",
+        "[Answer] 14"
+      ],
+      [
+        "[Answer] 50",
+        "[Answer] 50",
+        "[Answer] 30"
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "questions": [
+      "How many new species of animals will be discovered by scientists until the year 2025?",
+      "How many new species of animals will be discovered by scientists until the year 2028?",
+      "How many new species of animals will be discovered by scientists until the year 2032?",
+      "How many new species of animals will be discovered by scientists until the year 2036?",
+      "How many new species of animals will be discovered by scientists until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 15000",
+        "[Answer] 15000",
+        "[Answer] 20000"
+      ],
+      [
+        "[Answer] 50000",
+        "[Answer] 15000",
+        "[Answer] 15000"
+      ],
+      [
+        "[Answer] 50000",
+        "[Answer] 150000",
+        "[Answer] 150000"
+      ],
+      [
+        "[Answer] 200000",
+        "[Answer] 150000",
+        "[Answer] 200000"
+      ],
+      [
+        "[Answer] 500000",
+        "[Answer] 50000",
+        "[Answer] 150000"
+      ]
+    ]
+  },
+  {
+    "id": 29,
+    "questions": [
+      "How many new elements will be added to the periodic table until the year 2025?",
+      "How many new elements will be added to the periodic table until the year 2028?",
+      "How many new elements will be added to the periodic table until the year 2032?",
+      "How many new elements will be added to the periodic table until the year 2036?",
+      "How many new elements will be added to the periodic table until the year 2040?"
+    ],
+    "responses": [
+      [
+        "As of 2024, the most recently confirmed element is Oganesson (element 118). No new elements beyond 118 have been officially named or confirmed by IUPAC.\n\nGiven the complexity of synthesizing new superheavy elements, and no official announcements suggesting the confirmation of elements 119 or beyond before 2025, it is likely that no new elements will be added to the periodic table by 2025.\n\n[Answer] 0 N",
+        "As of 2024, the periodic table has 118 confirmed elements, with element 118 (Oganesson) being the last officially recognized. There have been no new elements officially added since 2016, when elements 113 (Nihonium), 114 (Flerovium), 115 (Moscovium), 116 (Livermorium), 117 (Tennessine), and 118 (Oganesson) were named.\n\nNew element discovery and official confirmation is a lengthy process, and no new elements beyond 118 have been officially confirmed or named. There are ongoing efforts to synthesize elements 119 and 120, which would extend the periodic table, but as of now, these have not been confirmed.\n\nGiven the timeframe until 2025 is very short and no official new elements are confirmed or expected by then, the number of new elements added by 2025 is likely zero.\n\n[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "As of 2024, the periodic table includes elements up to Oganesson (element 118). The discovery and confirmation of new elements beyond 118 (superheavy elements) depend on experimental synthesis in laboratories, which is challenging and slow. Predicting the exact number of new elements added by 2028 is uncertain and depends on scientific advancements and verification.\n\nHowever, based on current research trends and ongoing experiments, it is reasonable to expect the possible addition of 1 or 2 new elements by 2028.\n\n[Answer] 2 N",
+        "As of 2024, the most recently added elements up to Oganesson (element 118) have been confirmed. Predicting how many new elements will be added by 2028 is speculative and depends on scientific discoveries and confirmations. However, currently, elements beyond 118 (superheavy elements) are being researched and potentially synthesized.\n\nGiven the pace of element discovery and assuming ongoing research succeeds, it is reasonable to estimate the addition of about 1 to 3 new elements by 2028.\n\n[Answer] 3",
+        "There are currently 118 confirmed elements in the periodic table as of 2024. No new elements have been officially added since element 118 (Oganesson). Predicting the exact number of new elements until 2028 is uncertain, but based on typical synthesis rates and experimental progress, approximately 2 to 3 new elements could be confirmed.\n\n[Answer] 3"
+      ],
+      [
+        "As of 2024, the periodic table currently has 118 confirmed elements. Elements beyond 118 (oganesson) have not yet been officially discovered or confirmed. Considering the difficulty in synthesizing superheavy elements and typical research timelines, it is speculative but reasonable to estimate that 1 to 2 new elements might be confirmed within the next 8 years, i.e., until 2032.\n\n[Answer] 2",
+        "Currently, the periodic table officially includes elements up to Oganesson (element 118). Scientists are working on discovering elements beyond 118, but none have been officially added since Oganesson as of 2024.\n\nPredictions for new elements (elements 119, 120, etc.) depend on successful synthesis and confirmation, which is a slow process. Considering the typical pace of discoveries and confirmations, it is likely that only 1 or 2 new elements might be officially recognized by 2032.\n\n[Answer] 2",
+        "[Answer] 0 N"
+      ],
+      [
+        "[Answer] 6",
+        "The most recently added elements up to Oganesson (element 118) were confirmed as of 2016. Any elements beyond 118 have not yet been officially recognized or synthesized as of 2024. \n\nPredicting how many new elements will be added by 2036 involves estimating the future discovery rate in superheavy element research. Historically, the pace of discovering new elements has slowed significantly as elements get heavier and harder to synthesize. \n\nFrom 2010 to 2016, two new elements (113, 115, 117, 118) were officially added. Given the increasing difficulty, it's reasonable to estimate fewer than 5 new elements might be added in the next 12 years.\n\nTherefore, a plausible estimate is approximately 3 new elements added to the periodic table by 2036.\n\n[Answer] 3",
+        "[Answer] 3"
+      ],
+      [
+        "Currently, the periodic table includes elements up to Oganesson (element 118). Scientists are working on synthesizing elements beyond 118, but such discoveries are challenging and uncertain, typically taking decades between new element discoveries.\n\nPredicting the exact number of new elements added by 2040 is speculative, but based on past rates—elements 113 to 118 were confirmed between 2004 and 2016—it's reasonable to anticipate 1 to 3 new elements might be confirmed and added by 2040.\n\n[Answer] 3",
+        "Currently, the periodic table has elements discovered or confirmed up to Oganesson (element 118). Predictions and ongoing research suggest that elements beyond 118 (superheavy elements) may be discovered or synthesized by 2040. However, estimating the exact number of new elements that will be added by 2040 is uncertain due to the increasing difficulty of creating heavier elements and the unknown limits of the periodic table.\n\nBased on current scientific trends, attempts to synthesize elements up to around 126 or possibly 130 are considered plausible within the next couple of decades.\n\nThus, it is reasonable to estimate that about 8 to 12 new elements might be added by 2040, assuming progress continues steadily.\n\n[Answer] 10",
+        "The current periodic table officially has 118 elements. Predictions about new elements depend on scientific progress in superheavy element research, which is increasingly difficult due to instability and synthesis challenges. Historically, new elements beyond element 118 are not yet confirmed or named.\n\nGiven the current state and typical pace, it is plausible that by 2040, around 1 to 3 new elements could be synthesized and officially added, though this is speculative.\n\n[Answer] 3"
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "questions": [
+      "How many times will the Summer Olympics take place until the year 2025?",
+      "How many times will the Summer Olympics take place until the year 2028?",
+      "How many times will the Summer Olympics take place until the year 2032?",
+      "How many times will the Summer Olympics take place until the year 2036?",
+      "How many times will the Summer Olympics take place until the year 2040?"
+    ],
+    "responses": [
+      [
+        "The Summer Olympics are held every 4 years. The first modern Summer Olympics were held in 1896.\n\nWe count from 1896 up to and including 2024 (the last Summer Olympics before 2025):\n\nCalculate the number of Olympics held from 1896 to 2024:\n\nNumber of Olympics = ((2024 - 1896) / 4) + 1  \nNumber of Olympics = (128 / 4) + 1  \nNumber of Olympics = 32 + 1 = 33\n\n[Answer] 33",
+        "The Summer Olympics occur every 4 years, and the modern games started in 1896. The years for the Summer Olympics up to 2025 are: 1896, 1900, 1904, ..., 2016, 2020 (held in 2021 but considered 2020 Olympics), and the next would be 2024.\n\nCounting all Summer Olympics from 1896 through 2024:\n\n- First Summer Olympics: 1896\n- Last Summer Olympics before 2025: 2024\n\nCalculate the number of editions:\n\nNumber of Olympics = ((2024 - 1896) / 4) + 1  \n= (128 / 4) + 1  \n= 32 + 1  \n= 33\n\nHowever, some Olympics were canceled:\n\n- 1916 (WWI)\n- 1940 (WWII)\n- 1944 (WWII)\n\nSo subtract those 3 canceled games:\n\nTotal held Olympics = 33 - 3 = 30\n\n[Answer] 30",
+        "The Summer Olympics occur every 4 years. The modern Summer Olympics started in 1896. The years they were held (or planned) are:\n\n1896, 1900, 1904, 1908, 1912, (1916 canceled due to WWI), 1920, 1924, 1928, 1932, 1936, (1940 and 1944 canceled due to WWII), 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020 (held in 2021 due to COVID but still counted as 2020), and the next will be in 2024.\n\nCounting these:\n\nFrom 1896 to 2024:\n\n- Total Years: (2024 - 1896)/4 + 1 = (128/4) + 1 = 32 + 1 = 33\n\n- Subtract canceled ones: 1916, 1940, 1944 → 3 canceled events\n\nSo total events held or planned by 2024 = 33 - 3 = 30.\n\nHence, until 2025 (which includes the 2024 Summer Olympics), the Summer Olympics will have taken place 30 times.\n\n[Answer] 30"
+      ],
+      [
+        "The Summer Olympics are held every 4 years. The last Summer Olympics before 2028 is in 2024. Starting from 2024 to 2028, the Olympics will take place in:\n\n- 2024\n- 2028\n\nThat makes 2 times until the year 2028.\n\n[Answer] 2 N",
+        "The Summer Olympics occur every 4 years. The recent and upcoming Summer Olympics are:\n\n- 2008 (Beijing)\n- 2012 (London)\n- 2016 (Rio de Janeiro)\n- 2020 (Tokyo, held in 2021 due to COVID-19, but still counted as 2020)\n- 2024 (Paris)\n- 2028 (Los Angeles)\n\nCounting these from 2008 up to and including 2028: 2008, 2012, 2016, 2020, 2024, 2028 gives 6 Summer Olympics.\n\n[Answer] 6",
+        "The Summer Olympics are held every 4 years. The next Summer Olympics will be in 2024 and then 2028. Counting from now until 2028, the Summer Olympics will take place in:\n\n2024  \n2028\n\nSo, there will be 2 Summer Olympics until the year 2028.\n\n[Answer] 2"
+      ],
+      [
+        "The Summer Olympics occur every 4 years. The next Summer Olympics will be:\n\n- 2024 (Paris)\n- 2028 (Los Angeles)\n- 2032 (Brisbane)\n\nCounting from now until 2032, there will be 3 Summer Olympics.\n\n[Answer] 3",
+        "The Summer Olympics occur every 4 years. The most recent Summer Olympics were in 2021 (Tokyo, originally scheduled for 2020 but postponed due to the pandemic).\n\nThe Summer Olympics will be held in:\n\n- 2024 (Paris)\n- 2028 (Los Angeles)\n- 2032 (Brisbane)\n\nCounting from 2024 to 2032, there are 3 Summer Olympics events.\n\n[Answer] 3",
+        "The Summer Olympics occur every 4 years. The next Summer Olympics after 2024 will be in 2028 and then in 2032. \n\nCounting the Summer Olympics from 2024 until 2032 inclusive: 2024, 2028, 2032.\n\nSo, that is 3 times.\n\n[Answer] 3"
+      ],
+      [
+        "The Summer Olympics occur every 4 years. The next Summer Olympics are in 2024. Counting every 4 years from 2024 to 2036 inclusive: 2024, 2028, 2032, 2036. \n\nThat makes 4 times.\n\n[Answer] 4",
+        "The Summer Olympics take place every 4 years. The last one was in 2024, so the upcoming ones will be in:\n\n2024, 2028, 2032, and 2036.\n\nCounting these events including 2024 and 2036:\n\n1) 2024  \n2) 2028  \n3) 2032  \n4) 2036  \n\n[Answer] 4",
+        "The Summer Olympics are held every 4 years. The last Summer Olympics were in 2021 (Tokyo, postponed from 2020). The next will be in 2024, then 2028, 2032, and 2036.\n\nCounting from 2024 to 2036 inclusive:\n\n2024, 2028, 2032, 2036 — that is 4 times.\n\n[Answer] 4"
+      ],
+      [
+        "The Summer Olympics occur every 4 years. The next Olympics after 2024 up to 2040 are:\n\n2024, 2028, 2032, 2036, and 2040.\n\nThat's 5 times in total including 2024.\n\n[Answer] 5",
+        "The Summer Olympics occur every 4 years. The most recent Summer Olympics were in 2021 (Tokyo), delayed from 2020 due to the pandemic.\n\nThe upcoming Summer Olympics years are:\n- 2024 (Paris)\n- 2028 (Los Angeles)\n- 2032 (Brisbane)\n- 2036\n- 2040\n\nCount these from 2024 through 2040: 2024, 2028, 2032, 2036, 2040 — that's 5 times.\n\n[Answer] 5",
+        "The Summer Olympics occur every 4 years. The next Summer Olympics after 2024 will be in:\n\n2024, 2028, 2032, 2036, 2040.\n\nCounting these: 2024, 2028, 2032, 2036, and 2040, there are 5 occurrences.\n\n[Answer] 5"
+      ]
+    ]
+  },
+  {
+    "id": 31,
+    "questions": [
+      "How many people will have reached the Mariana Trench's Challenger Deep by the year 2025?",
+      "How many people will have reached the Mariana Trench's Challenger Deep by the year 2028?",
+      "How many people will have reached the Mariana Trench's Challenger Deep by the year 2032?",
+      "How many people will have reached the Mariana Trench's Challenger Deep by the year 2036?",
+      "How many people will have reached the Mariana Trench's Challenger Deep by the year 2040?"
+    ],
+    "responses": [
+      [
+        "As of early 2024, approximately 47 people have reached the Mariana Trench's Challenger Deep. Considering planned dives and increasing interest, a reasonable estimate would add around 3 more by 2025.\n\n[Answer] 50",
+        "As of early 2024, approximately 30 people have reached the Mariana Trench’s Challenger Deep. Considering the pace of deep-sea exploration and planned missions, an estimated total of around 50 people might have reached it by 2025.\n\n[Answer] 50",
+        "As of early 2024, approximately 30 people have made crewed descents to the Challenger Deep. Considering ongoing exploration missions and planned dives, an estimated total by 2025 would be around 40.\n\n[Answer] 40"
+      ],
+      [
+        "As of 2024, approximately 25 people have reached the Challenger Deep. Considering the increasing interest and advancements in deep-sea exploration, it is reasonable to expect more missions over the next few years. Estimating an average of 5 additional people per year over the next 4 years (2025-2028), that would add about 20 more people.\n\nSo by 2028:\n\n25 (current) + 20 (additional) = 45\n\n[Answer] 45",
+        "As of 2024, approximately 30 people have reached the Mariana Trench's Challenger Deep. Considering the interest in deep-sea exploration and ongoing advancements, an estimated additional 10-15 people might reach it by 2028.\n\n[Answer] 45",
+        "As of mid-2024, approximately 35 people have reached the Challenger Deep, either through manned submersible expeditions or other means. With increasing interest, commercial submersible missions, and scientific explorations expected to continue, it is reasonable to estimate that about 10-15 more people might reach the Challenger Deep by 2028.\n\n[Answer] 50"
+      ],
+      [
+        "As of now (2024), approximately 30 people have reached the Challenger Deep. Considering a slow but steady interest in deep-sea exploration and potential tourist or scientific submersible missions planned for the next decade, an estimate could be around 70 people by 2032.\n\n[Answer] 70",
+        "As of 2024, about 25 people have reached the Challenger Deep. Considering ongoing advancements in deep-sea exploration technology and increasing interest, it's reasonable to estimate that divers and submersible passengers might increase by roughly 5-10 individuals per year through 2032.\n\nOver 8 years (2024 to 2032), this could add approximately 40 to 80 more people.\n\nAdding to the initial 25, the total estimated number of people who will have reached the Challenger Deep by 2032 is roughly between 65 and 105.\n\nTaking a midpoint estimate:\n\n[Answer] 85",
+        "As of 2024, approximately 20 people have reached the Challenger Deep. Given interest in deep-sea exploration is growing but access remains limited due to technical and financial challenges, a reasonable estimate might be around 50 people by 2032.\n\n[Answer] 50"
+      ],
+      [
+        "As of 2024, approximately 20 people have reached the Mariana Trench's Challenger Deep. Considering the increasing interest in deep-sea exploration, improvements in technology, and planned tourist and scientific expeditions, it is reasonable to estimate that by 2036, the total number of people who have reached the Challenger Deep could be around 50 to 60.\n\n[Answer] 55",
+        "By 2024, approximately 25 people have reached the Challenger Deep. Considering the pace of exploration and assuming the number of visitors increases gradually, it is reasonable to estimate that by 2036, about 50 people will have reached the Challenger Deep.\n\n[Answer] 50",
+        "As of 2024, approximately 20 people have reached the Challenger Deep. Given increased interest and advancements in deep-sea exploration and tourism, it is reasonable to estimate that by 2036, around 200 people will have reached the Challenger Deep.\n\n[Answer] 200"
+      ],
+      [
+        "As of 2024, about 20 people have reached the Challenger Deep. Considering increasing interest, technological advancements, and tourism expeditions planned by companies such as Victor Vescovo's expeditions and others aiming to offer tourist dives, the number of people reaching the Challenger Deep is expected to increase significantly by 2040.\n\nAssuming gradual growth from a few expeditions per year and potential opening to more private expeditions, it is reasonable to estimate approximately 10 new visitors per year over the next 16 years (2024 to 2040), which is an additional 160 people plus the current 20.\n\n[Answer] 180",
+        "As of 2024, approximately 30 people have reached the Challenger Deep. Given the increasing interest and advancements in deep-sea exploration technology, the number of visitors is expected to grow steadily. Considering potential tourist submersibles and scientific missions over the next 16 years, an estimate would be around 5 additional people per year.\n\nCalculating for 16 years (2025–2040):\n30 (current) + 5 × 16 = 30 + 80 = 110\n\n[Answer] 110",
+        "As of 2024, approximately 22 people have reached the Mariana Trench's Challenger Deep. Considering the growth in deep-sea exploration, tourism initiatives (such as those by private companies offering submersible trips), and scientific missions, the number is expected to increase. Assuming an accelerating but cautious increase due to technological advances and costs, a reasonable estimate might be around 3 to 5 additional visitors per year on average.\n\nFrom 2024 to 2040 is 16 years.  \nIf roughly 4 new visitors per year reach Challenger Deep in the future:  \n4 visitors/year * 16 years = 64 additional visitors\n\nAdd the current 22:  \n22 + 64 = 86\n\n[Answer] 86 N"
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "questions": [
+      "How many nuclear tests will North Korea conduct until the year 2025?",
+      "How many nuclear tests will North Korea conduct until the year 2028?",
+      "How many nuclear tests will North Korea conduct until the year 2032?",
+      "How many nuclear tests will North Korea conduct until the year 2036?",
+      "How many nuclear tests will North Korea conduct until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 0 N",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] Unknown N",
+        "[Answer] 0N",
+        "[Answer] Unknown N"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] Unknown",
+        "[Answer] 0 N",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] Unknown"
+      ]
+    ]
+  },
+  {
+    "id": 33,
+    "questions": [
+      "What will be the women's 200 meter backstroke swimming record by the year 2025?",
+      "What will be the women's 200 meter backstroke swimming record by the year 2028?",
+      "What will be the women's 200 meter backstroke swimming record by the year 2032?",
+      "What will be the women's 200 meter backstroke swimming record by the year 2036?",
+      "What will be the women's 200 meter backstroke swimming record by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 2:03.00 N",
+        "[Answer] 2:03.00",
+        "[Answer] 2:02.00 N"
+      ],
+      [
+        "[Answer] 2:01.00",
+        "[Answer] 2:02.0",
+        "[Answer] 2:02.00 N"
+      ],
+      [
+        "[Answer] 2:02.0",
+        "[Answer] 2:01.00 N",
+        "[Answer] 2:01.0"
+      ],
+      [
+        "[Answer] 2:01.0",
+        "[Answer] 2:02.0",
+        "[Answer] 2:00.0"
+      ],
+      [
+        "[Answer] 1:55.0",
+        "[Answer] 2.00 seconds",
+        "[Answer] 1:57.0"
+      ]
+    ]
+  },
+  {
+    "id": 34,
+    "questions": [
+      "How many people will have climbed Mount Everest by the year 2025?",
+      "How many people will have climbed Mount Everest by the year 2028?",
+      "How many people will have climbed Mount Everest by the year 2032?",
+      "How many people will have climbed Mount Everest by the year 2036?",
+      "How many people will have climbed Mount Everest by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 70000 N",
+        "[Answer] 9000",
+        "[Answer] 7000"
+      ],
+      [
+        "[Answer] 9000",
+        "[Answer] 9400",
+        "[Answer] 7850"
+      ],
+      [
+        "[Answer] 12000",
+        "[Answer] 11000N",
+        "[Answer] 45000"
+      ],
+      [
+        "[Answer] 100000",
+        "[Answer] 16000 N",
+        "[Answer] 9000"
+      ],
+      [
+        "[Answer] 125000",
+        "[Answer] 100000",
+        "[Answer] 50000"
+      ]
+    ]
+  },
+  {
+    "id": 35,
+    "questions": [
+      "How many people will have visited the International Space Station by the year 2025?",
+      "How many people will have visited the International Space Station by the year 2028?",
+      "How many people will have visited the International Space Station by the year 2032?",
+      "How many people will have visited the International Space Station by the year 2036?",
+      "How many people will have visited the International Space Station by the year 2040?"
+    ],
+    "responses": [
+      [
+        "As of mid-2024, approximately 250 people have visited the International Space Station (ISS). Given ongoing missions and expected crew rotations through 2025, roughly 10-20 additional visitors are anticipated.  \n\n[Answer] 270",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS) since its first crewed mission in 2000. Considering the ongoing missions, planned crew rotations, and increases in commercial and international flights to the ISS, it is reasonable to estimate that around 300 people will have visited the ISS by the end of 2025.\n\n[Answer] 300",
+        "As of mid-2024, approximately 270 people have visited the International Space Station (ISS) since its first crewed mission in 2000. Considering the ongoing schedule of regular missions by NASA, Roscosmos, ESA, JAXA, and private spaceflight companies, it is expected that around 10-15 additional individuals will visit the ISS by the end of 2025.\n\nTherefore, the estimated total number of people who will have visited the ISS by 2025 is roughly:\n\n270 (current) + 15 (upcoming) = 285\n\n[Answer] 285"
+      ],
+      [
+        "As of mid-2024, approximately 270 people have visited the International Space Station (ISS) since its first crewed mission in 2000. Considering ongoing and planned missions by NASA, Roscosmos, ESA, JAXA, and private companies, the number of visitors is expected to increase.\n\nWith an average of about 10–12 new visitors per year recently, and possibly more as commercial flights increase, let's estimate:\n\nFrom 2024 to 2028 is 4 years.\nAssuming about 10–15 visitors per year on average for 4 years: 4 × 12 ≈ 48 new visitors.\n\nAdding that to 270 gives around 318 visitors by 2028.\n\n[Answer] 320",
+        "As of 2024, approximately 250 individuals have visited the ISS. The ISS has been continuously inhabited since 2000, with about 4-6 crew members rotating every 6 months—roughly 10-12 new visitors per year.\n\nFrom 2024 to 2028 is 4 years. Assuming a similar rate of about 10 new visitors per year:\n\n4 years × 10 visitors/year = 40 additional visitors.\n\nAdding this to the existing 250 visitors gives approximately 290 visitors by 2028.\n\n[Answer] 290",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS). Considering the rate of missions and typical crew rotations, an estimate can be made for the number of visitors by 2028.\n\nTypically, about 10 to 12 people visit the ISS each year. Over the next four years (2024-2028), that could add roughly 40 to 48 more people. Adding this to the current count results in approximately 310 to 320 visitors by 2028.\n\nTaking a midpoint estimate:\n\n[Answer] 315 N"
+      ],
+      [
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS). Historically, the average rate of visitors is about 10–12 people annually. Considering continued ISS missions and potential increases due to private spaceflight and commercial crew programs, a reasonable estimate would be around 12 new visitors per year for the next 8 years (2024–2032).\n\nCalculation:\n- Current visitors: ~270\n- Additional visitors over 8 years: 12 × 8 = 96\n- Total by 2032: 270 + 96 = 366\n\n[Answer] 366",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS). Considering the ISS continues to operate and assuming an average of 10 new visitors per year over the next 8 years (2024–2032), that adds about 80 more visitors.\n\n270 (current visitors) + 80 (projected visitors) = 350\n\n[Answer] 350",
+        "As of now, approximately 270 people have visited the International Space Station (ISS) since its first crewed mission in 2000. On average, about 10-15 people visit the ISS each year, considering regular crew rotations and occasional tourists or special missions.\n\nAssuming an average of 12 visitors per year and projecting for the next 10 years (2023 to 2032):\n\nNumber of additional visitors = 12 visitors/year × 10 years = 120 visitors\n\nTotal visitors by 2032 = Current visitors + Additional visitors = 270 + 120 = 390\n\n[Answer] 390"
+      ],
+      [
+        "[Answer] 100",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS) since its first crewed mission in 2000. The ISS has served as a continuous human outpost in space, with regular crew rotations involving about six astronauts aboard at any given time.\n\nTypically, there are about two crew rotations per year, each involving around 6 astronauts. This means roughly 12 new visitors per year. From 2024 to 2036 is 12 years, so an additional:\n\n12 visitors/year × 12 years = 144 visitors\n\nAdding this to the current total:\n\n270 + 144 = 414 visitors by 2036.\n\n[Answer] 414",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS). Considering ongoing missions, increased commercial access, and projected activity, a reasonable estimate would be that by 2036, around 400 people will have visited the ISS.\n\n[Answer] 400"
+      ],
+      [
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS).\n\nEstimating future visitors depends on several factors:\n- Commercial spaceflight growth (e.g., SpaceX, Axiom)\n- Increased frequency of crew rotations\n- Emerging space tourism markets\n\nIf crew rotations and commercial missions continue to increase, the number of visitors could grow significantly.\n\nHistorically, about 10-15 people visit the ISS annually. With commercial flights ramping up, let's estimate an average of 20 visitors per year from 2024 to 2040.\n\nNumber of years from 2024 to 2040 = 16\nAdditional visitors = 20 × 16 = 320\nTotal visitors by 2040 = 270 + 320 = 590\n\n[Answer] 590 N",
+        "[Answer] 400",
+        "As of 2024, approximately 270 people have visited the International Space Station (ISS). Given the increasing pace of space missions, commercial spaceflight developments, and plans for continued ISS operation until at least 2030 (with some proposals to extend beyond), it is reasonable to estimate that roughly 10-15 new visitors per year might continue through 2040. Assuming an average of 12 new visitors per year over the next 16 years (2025-2040):\n\n12 visitors/year × 16 years = 192 additional visitors\n\nAdding to the current 270:\n\n270 + 192 = 462\n\n[Answer] 460"
+      ]
+    ]
+  },
+  {
+    "id": 36,
+    "questions": [
+      "How many people will have completed a solo, non-stop, around-the-world sailing trip by the year 2025?",
+      "How many people will have completed a solo, non-stop, around-the-world sailing trip by the year 2028?",
+      "How many people will have completed a solo, non-stop, around-the-world sailing trip by the year 2032?",
+      "How many people will have completed a solo, non-stop, around-the-world sailing trip by the year 2036?",
+      "How many people will have completed a solo, non-stop, around-the-world sailing trip by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 200",
+        "As of 2023, approximately 200 people have completed solo, non-stop, around-the-world sailing trips. Considering the difficulty, rarity, and time taken to prepare for such voyages, a few additional people may complete this feat by 2025.\n\nAn estimate might be around 10-15 new solo, non-stop around-the-world sailors in the next two years.\n\n[Answer] 215",
+        "As of recent records, approximately 250 people have completed a solo, non-stop, around-the-world sailing trip. Given the rarity and difficulty of such voyages, the annual increase is quite low. Estimating a few additional completions by 2025, the total will likely be around 260.\n\n[Answer] 260N"
+      ],
+      [
+        "[Answer] 400",
+        "[Answer] 300",
+        "As of 2024, approximately 250 people have completed a solo, non-stop, around-the-world sailing trip. Given the rarity and difficulty of such voyages, around 2-5 more sailors are expected to complete it by 2028.\n\n[Answer] 255"
+      ],
+      [
+        "As of 2024, approximately 200 people have completed a solo, non-stop, around-the-world sailing trip. Given the difficulty and rarity of such endeavors, the number is likely to increase slowly over the next 8 years. Estimating a modest increase of about 5-7 sailors per year, by 2032, the total could be around 240 to 260.\n\n[Answer] 250",
+        "As of mid-2024, about 50 people have completed solo non-stop around-the-world sailing trips. Given the difficulty and rarity of such voyages, only a few new completions occur each year. Estimating an average of 1 to 2 more successful solo non-stop circumnavigations per year through 2032 (8 more years) adds roughly 8 to 16 more sailors.\n\nTherefore, by 2032, the total number of people who have completed a solo non-stop around-the-world sailing trip is likely to be around 60 to 65.\n\n[Answer] 65 N",
+        "[Answer] 400"
+      ],
+      [
+        "As of 2024, approximately 200 people have completed a solo, non-stop, around-the-world sailing trip. Given the increasing interest in sailing, advancements in technology, and the growth of sailing events, it's reasonable to estimate that by 2036, around 300 people will have accomplished this feat. \n\n[Answer] 300",
+        "As of mid-2024, approximately 200 people have completed a solo, non-stop, around-the-world sailing trip. Assuming a modest increase in the number of such voyages over the next 12 years, with about 5–10 new completions per year, a reasonable estimate for 2036 would be around 260–320 people. Taking a midpoint:\n\n[Answer] 290 N",
+        "As of 2024, roughly 200 people have completed a solo, non-stop, around-the-world sailing trip. Considering trends in sailing, technology improvements, and interest in solo circumnavigation, it's reasonable to estimate that around 10 more sailors per year might complete this feat over the next 12 years.\n\n200 + (10 * 12) = 320\n\n[Answer] 320"
+      ],
+      [
+        "The number of people who have completed solo, non-stop, around-the-world sailing trips by recent years is small but growing. As of the early 2020s, roughly around 10 to 20 sailors have achieved this feat solo and non-stop. Considering the increasing interest, improved technology, and more frequent attempts, an estimate can be made for the total number by 2040.\n\n- Current known solo, non-stop circumnavigators: ~15 (approximate)\n- Rate of new completions: about 1 every 2 years increasing slightly with growing popularity and advancements.\n- Over 20 years (2020 to 2040), estimate 15 to 20 more sailors.\n- Total estimated by 2040: approximately 30 to 35 sailors.\n\n[Answer] 35",
+        "As of now (2024), about 200 people have completed solo, non-stop, around-the-world sailing trips. Considering increasing interest, technological advances, and growing popularity of such challenges, we can estimate roughly 5 to 10 new sailors per year might complete this feat.\n\nFrom 2024 to 2040 is 16 years.  \nConservative estimate: 5 sailors/year × 16 years = 80 more sailors  \nOptimistic estimate: 10 sailors/year × 16 years = 160 more sailors  \n\nAdding to the current 200:  \nLow estimate = 200 + 80 = 280  \nHigh estimate = 200 + 160 = 360  \n\nA reasonable estimate around midpoint: approximately 320 sailors by 2040.\n\n[Answer] 320",
+        "As of 2024, approximately 230 people have completed a solo, non-stop, around-the-world sailing trip. Considering the increasing interest, advancements in sailing technology, and the difficulty of the endeavor, an estimated average of 3 new completions per year until 2040 is reasonable.\n\nFrom 2024 to 2040 is 16 years. \n\nAdditional completions = 3 completions/year × 16 years = 48 completions\n\nTotal completions by 2040 = 230 + 48 = 278\n\n[Answer] 278"
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "questions": [
+      "How many people will have explored the world's deepest cave, Krubera Cave, by the year 2025?",
+      "How many people will have explored the world's deepest cave, Krubera Cave, by the year 2028?",
+      "How many people will have explored the world's deepest cave, Krubera Cave, by the year 2032?",
+      "How many people will have explored the world's deepest cave, Krubera Cave, by the year 2036?",
+      "How many people will have explored the world's deepest cave, Krubera Cave, by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 20 N",
+        "[Answer] 50",
+        "[Answer] 150"
+      ],
+      [
+        "[Answer] 200",
+        "[Answer] 150",
+        "[Answer] 150 N"
+      ],
+      [
+        "There is no exact public data on the number of people who have explored Krubera Cave, nor any official projections for who will explore it by 2032. However, considering it is one of the world's deepest caves and expeditions require expert cavers with special skills and equipment, the number of people who have explored it is likely quite limited—estimated to be in the low hundreds since its discovery and exploration began in the late 20th century.\n\nGiven the niche nature of cave exploration and the continued interest in Krubera Cave, it is reasonable to estimate that by 2032, a few more dozen expert explorers will have visited it, bringing the total likely to around 200.\n\n[Answer] 200 N",
+        "[Answer] 100 N",
+        "There have been very few expeditions to Krubera Cave, as it is extremely challenging and dangerous. Up to now, only specialized speleologists and researchers have descended it, numbering likely under 100 individuals. Considering the rarity and difficulty of exploration, it's reasonable to estimate that by 2032, fewer than 150 people will have explored the cave.\n\n[Answer] 150"
+      ],
+      [
+        "[Answer] 150 N",
+        "[Answer] 0",
+        "There is no publicly available specific estimate or projection on the number of people who will have explored Krubera Cave by the year 2036. The number of explorers is limited due to the cave's extreme depth and difficulty.\n\nGiven that as of recent records, only a few dozen experienced cave divers and explorers have descended into Krubera Cave, and assuming continuous but slow increase in exploration activity, a reasonable rough estimate could be around 50 explorers total by 2036.\n\n[Answer] 50 N"
+      ],
+      [
+        "[Answer] 100",
+        "[Answer] 100",
+        "There is no publicly available precise estimate of the exact number of people who will have explored Krubera Cave by 2040. However, as of recent records, only a few dozen experienced speleologists and explorers have reached its depths. Given the cave’s extreme difficulty and danger, exploration groups remain small. Assuming a steady rate of exploration by small expert teams over the next two decades, a rough estimate might be around 100 people in total by 2040.\n\n[Answer] 100 N"
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "questions": [
+      "How many people will have reached the South Pole by the year 2025?",
+      "How many people will have reached the South Pole by the year 2028?",
+      "How many people will have reached the South Pole by the year 2032?",
+      "How many people will have reached the South Pole by the year 2036?",
+      "How many people will have reached the South Pole by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 8350",
+        "[Answer] 6000",
+        "[Answer] 1500"
+      ],
+      [
+        "As of 2024, approximately 600 people have reached the South Pole. Given the increasing interest in polar expeditions and tourism, let's estimate an average of about 30 new visitors per year. Over the next 4 years (2025-2028), that would add approximately 120 people.\n\n600 + 120 = 720\n\n[Answer] 720",
+        "[Answer] 5000 N",
+        "[Answer] 6000"
+      ],
+      [
+        "[Answer] 6000",
+        "[Answer] 1500",
+        "[Answer] 10,000 N"
+      ],
+      [
+        "[Answer] 10000",
+        "[Answer] 22000",
+        "[Answer] 20,000 N"
+      ],
+      [
+        "I don’t have access to real-time data or future predictions specific enough to provide an exact number of people who will have reached the South Pole by 2040. This number depends on many variables including tourism trends, scientific expeditions, and geopolitical factors.\n\nIf you provide current statistics or estimated growth rates, I can help you make a projection. Otherwise, the question cannot be answered precisely with the available information.",
+        "[Answer] 10,000 N",
+        "[Answer] 25000 N"
+      ]
+    ]
+  },
+  {
+    "id": 39,
+    "questions": [
+      "How many people will have trekked across the entire Sahara Desert by the year 2025?",
+      "How many people will have trekked across the entire Sahara Desert by the year 2028?",
+      "How many people will have trekked across the entire Sahara Desert by the year 2032?",
+      "How many people will have trekked across the entire Sahara Desert by the year 2036?",
+      "How many people will have trekked across the entire Sahara Desert by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 1000",
+        "[Answer] 5000",
+        "[Answer] 1000"
+      ],
+      [
+        "[Answer] 3000 N",
+        "[Answer] 1500",
+        "[Answer] 50"
+      ],
+      [
+        "[Answer] 1000",
+        "[Answer] 50",
+        "[Answer] 5000"
+      ],
+      [
+        "[Answer] 5000",
+        "[Answer] 5000",
+        "[Answer] 1500"
+      ],
+      [
+        "[Answer] 1000",
+        "[Answer] 1500",
+        "[Answer] 3000 N"
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "questions": [
+      "How many people will have climbed all 14 of the world's 8,000-meter peaks by the year 2025?",
+      "How many people will have climbed all 14 of the world's 8,000-meter peaks by the year 2028?",
+      "How many people will have climbed all 14 of the world's 8,000-meter peaks by the year 2032?",
+      "How many people will have climbed all 14 of the world's 8,000-meter peaks by the year 2036?",
+      "How many people will have climbed all 14 of the world's 8,000-meter peaks by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 45",
+        "[Answer] 50 N",
+        "[Answer] 45"
+      ],
+      [
+        "[Answer] 60",
+        "[Answer] 70",
+        "[Answer] 45"
+      ],
+      [
+        "[Answer] 60",
+        "[Answer] 50",
+        "[Answer] 120"
+      ],
+      [
+        "[Answer] 1000 N",
+        "As of 2024, approximately 50 people have climbed all 14 of the world's 8,000-meter peaks. Given the trend in mountaineering, the number is likely to increase gradually over the next 12 years. Considering advancements in climbing technology, increased interest, and more guided expeditions, a reasonable estimate would be around 70 to 80 people by 2036.\n\n[Answer] 75",
+        "[Answer] 60"
+      ],
+      [
+        "[Answer] 1000",
+        "[Answer] 1000",
+        "[Answer] 1000"
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "questions": [
+      "How many people will have dived to the wreck of the RMS Titanic by the year 2025?",
+      "How many people will have dived to the wreck of the RMS Titanic by the year 2028?",
+      "How many people will have dived to the wreck of the RMS Titanic by the year 2032?",
+      "How many people will have dived to the wreck of the RMS Titanic by the year 2036?",
+      "How many people will have dived to the wreck of the RMS Titanic by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 2000",
+        "[Answer] 700",
+        "[Answer] 900"
+      ],
+      [
+        "As of recent data, approximately 300 people have dived to the RMS Titanic wreck site. Given the technical challenges, cost, and recent improvements in submersible technology, it's estimated that an additional 200 to 300 people may dive by 2028. \n\nAdding these estimates together:\n\n300 (past) + 250 (estimated future) = 550\n\n[Answer] 550",
+        "As of recent information, over 200 people have dived to the Titanic wreck since its discovery in 1985. Considering the continued interest, technological advancements, and planned expeditions, an estimated additional 50-70 divers might visit between now and 2028.\n\nAdding these, a reasonable estimate would be around 250-270 total divers by 2028.\n\n[Answer] 260",
+        "[Answer] 1000 N"
+      ],
+      [
+        "[Answer] 800",
+        "Estimates up to recent years suggest around 200 people had dived to the RMS Titanic wreck. Given the expensive and exclusive nature of dives, it is unlikely that this number increases rapidly. However, with new submersibles and increased interest in deep-sea tourism, the number might increase moderately in coming years.\n\nAssuming an average of about 10 additional divers per year from 2024 to 2032 (8 years), that’s about 80 more people.\n\nAdding to the initial 200 gives approximately 280.\n\n[Answer] 280 N",
+        "As of now, approximately 250 people have dived to the RMS Titanic wreck since its discovery in 1985. Knowing the increasing interest in deep-sea tourism and considering recent and planned expeditions, the number is expected to grow but at a slow rate due to the costs and risks involved.\n\nEstimating that about 5-10 additional people dive annually over the next decade (2024-2032), that adds roughly 40-80 people.\n\nAdding that to the current 250, an estimate would be around 290-330 people.\n\nTaking the midpoint for a final estimate:\n\n[Answer] 310 N"
+      ],
+      [
+        "As of recent estimates, approximately 700 people have dived to the Titanic wreck since it was discovered in 1985. The number of dives has decreased significantly due to the wreck's depth, cost, and preservation concerns, but occasional expeditions still occur. Projecting into the future up to 2036, assuming a modest continuation with a few dives each year, perhaps around 10-15 additional people might dive over the next 12 years. Adding that to the current number:\n\n700 (past) + 15 (future) = 715\n\n[Answer] 715",
+        "The number of people who have dived to the wreck of the RMS Titanic as of recent data is estimated to be around 200. Since 2010, there have been several commercial and private expeditions. Assuming a continued low but steady rate of dives due to high costs and difficulty, let's estimate about 5 new divers per year over the next 15 years (2021 to 2036).\n\nCalculation:\n- Current divers (approximate as of early 2020s): 200\n- Additional divers from 2021 to 2036: 5 divers/year * 15 years = 75\n\nTotal = 200 + 75 = 275\n\n[Answer] 275",
+        "As of recent data, approximately 200 people have dived to the wreck of the RMS Titanic. Annual dives are limited and expensive, with only a handful of dives each year. Assuming around 5 divers per year over the next 14 years (2024 to 2036):\n\nEstimation: 200 (current) + 5 × 14 = 200 + 70 = 270\n\n[Answer] 270"
+      ],
+      [
+        "As of 2024, approximately 1,500 people have visited the wreck of the RMS Titanic since it was discovered in 1985. Tours continue, though limited in number due to the extreme depth and cost. Assuming an average of about 25 more visitors per year from 2024 to 2040 (16 years), that adds 400 more visitors.\n\nTotal estimate by 2040 = 1,500 + 400 = 1,900\n\n[Answer] 1900",
+        "As of 2024, approximately 200 people have dived to the wreck of the RMS Titanic. Given the increasing interest and improvements in deep-sea submersible technology, it is estimated that about 10 new people could dive each year in the coming years.\n\nFrom 2024 to 2040 is 16 years.\n\nAdditional divers = 16 years × 10 divers/year = 160 divers\n\nTotal divers by 2040 = 200 current + 160 additional = 360\n\n[Answer] 360 N",
+        "2100 N"
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "questions": [
+      "How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year 2025?",
+      "How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year 2028?",
+      "How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year 2032?",
+      "How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year 2036?",
+      "How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 5000",
+        "[Answer] 1000 N",
+        "[Answer] 20000"
+      ],
+      [
+        "[Answer] 10000 N",
+        "[Answer] 150000",
+        "[Answer] 5000"
+      ],
+      [
+        "[Answer] 100000",
+        "[Answer] 200,000 N",
+        "[Answer] 100000 N"
+      ],
+      [
+        "[Answer] 50,000 N",
+        "[Answer] 500000",
+        "[Answer] 100000"
+      ],
+      [
+        "[Answer] 1000000",
+        "[Answer] 5000 N",
+        "[Answer] 200000"
+      ]
+    ]
+  },
+  {
+    "id": 43,
+    "questions": [
+      "How many people will get cured of cancer by the year 2025?",
+      "How many people will get cured of cancer by the year 2028?",
+      "How many people will get cured of cancer by the year 2032?",
+      "How many people will get cured of cancer by the year 2036?",
+      "How many people will get cured of cancer by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] Cannot determine exact number",
+        "[Answer] 0",
+        "[Answer] N"
+      ],
+      [
+        "[Answer] N",
+        "[Answer] N",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] I cannot provide a specific numeric estimate for how many people will get cured of cancer by the year 2032 due to the complexity and unpredictability of medical advancements and cancer statistics.",
+        "[Answer] N",
+        "[Answer] N"
+      ],
+      [
+        "[Answer] N",
+        "[Answer] Cannot be determined with the given information.",
+        "[Answer] N"
+      ],
+      [
+        "[Answer] Unable to determine",
+        "[Answer] 0 N",
+        "[Answer] Unable to provide a numeric estimate due to insufficient data."
+      ]
+    ]
+  },
+  {
+    "id": 44,
+    "questions": [
+      "How many total solar eclipses will be visible on Earth until the year 2025?",
+      "How many total solar eclipses will be visible on Earth until the year 2028?",
+      "How many total solar eclipses will be visible on Earth until the year 2032?",
+      "How many total solar eclipses will be visible on Earth until the year 2036?",
+      "How many total solar eclipses will be visible on Earth until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 78",
+        "[Answer] 87 N",
+        "[Answer] 224"
+      ],
+      [
+        "[Answer] 78N",
+        "[Answer] 77",
+        "[Answer] 58"
+      ],
+      [
+        "[Answer] 58",
+        "[Answer] 68",
+        "[Answer] 73"
+      ],
+      [
+        "[Answer] 98",
+        "[Answer] 68",
+        "[Answer] 68"
+      ],
+      [
+        "[Answer] 46",
+        "[Answer] 69",
+        "[Answer] 68 N"
+      ]
+    ]
+  },
+  {
+    "id": 45,
+    "questions": [
+      "How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year 2025?",
+      "How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year 2028?",
+      "How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year 2032?",
+      "How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year 2036?",
+      "How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 10 N",
+        "[Answer] 15",
+        "[Answer] 15"
+      ],
+      [
+        "[Answer] 35",
+        "[Answer] 150 N",
+        "[Answer] 50"
+      ],
+      [
+        "[Answer] 350",
+        "[Answer] 780",
+        "[Answer] 2800"
+      ],
+      [
+        "[Answer] 290",
+        "[Answer] 300",
+        "[Answer] 2240"
+      ],
+      [
+        "[Answer] 420 N",
+        "[Answer] 3200",
+        "[Answer] 600 N"
+      ]
+    ]
+  },
+  {
+    "id": 46,
+    "questions": [
+      "How many total lunar eclipses will be visible on Earth until the year 2025?",
+      "How many total lunar eclipses will be visible on Earth until the year 2028?",
+      "How many total lunar eclipses will be visible on Earth until the year 2032?",
+      "How many total lunar eclipses will be visible on Earth until the year 2036?",
+      "How many total lunar eclipses will be visible on Earth until the year 2040?"
+    ],
+    "responses": [
+      [
+        "There are usually 0 to 3 total lunar eclipses in a year, but on average, about 0.5 to 1 total lunar eclipse happens per year globally. Over the period from now (2024) until the end of 2025 is roughly 2 years.\n\nLooking up eclipse predictions:\n\n- In 2024 and 2025, there are 3 total lunar eclipses globally visible.\n\nThus, the total lunar eclipses visible on Earth until the year 2025 is 3.\n\n[Answer] 3",
+        "[Answer] 92",
+        "There will be 87 total lunar eclipses visible on Earth until the year 2025. \n\n[Answer] 87"
+      ],
+      [
+        "From 2024 to 2028, the total lunar eclipses visible from Earth are as follows:\n\n- 2025: March 14 (Total)\n- 2025: September 7 (Total)\n- 2026: February 28 (Total)\n- 2028: July 27 (Total)\n\nThis gives a total of 4 total lunar eclipses visible on Earth until the year 2028.\n\n[Answer] 4",
+        "From 2024 to 2028, there will be 7 total lunar eclipses visible from various parts of the Earth. \n\n[Answer] 7",
+        "There are a total of 87 lunar eclipses occurring worldwide from 2024 through 2028:\n\n- 2024: 4 lunar eclipses  \n- 2025: 4 lunar eclipses  \n- 2026: 4 lunar eclipses  \n- 2027: 4 lunar eclipses  \n- 2028: 4 lunar eclipses  \n\nEach year can have 0 to 3 lunar eclipses, but typically 2 or more occur. According to NASA’s eclipse catalog, on average, there are about 4 lunar eclipses in that five-year span.\n\nSince the question is about total lunar eclipses specifically (not partial or penumbral), the typical number of total lunar eclipses is fewer per year. According to NASA data, total lunar eclipses happen about every 2.5 years on average.\n\nBetween 2024 and 2028, there are approximately 5 total lunar eclipses visible on Earth.\n\n[Answer] 5"
+      ],
+      [
+        "[Answer] 85",
+        "[Answer] 85",
+        "[Answer] 89"
+      ],
+      [
+        "[Answer] 85",
+        "From 2024 until 2036, there are a total of 7 lunar eclipses visible from Earth. \n\n[Answer] 7 N",
+        "[Answer] 87"
+      ],
+      [
+        "There will be 85 total lunar eclipses visible on Earth until the year 2040. \n\n[Answer] 85",
+        "[Answer] 86",
+        "[Answer] 85"
+      ]
+    ]
+  },
+  {
+    "id": 47,
+    "questions": [
+      "How many new countries will gain independence (recognized by more than half UN members) until the year 2025?",
+      "How many new countries will gain independence (recognized by more than half UN members) until the year 2028?",
+      "How many new countries will gain independence (recognized by more than half UN members) until the year 2032?",
+      "How many new countries will gain independence (recognized by more than half UN members) until the year 2036?",
+      "How many new countries will gain independence (recognized by more than half UN members) until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 0 N",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] 0N"
+      ],
+      [
+        "[Answer] 0N",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 0",
+        "[Answer] 0 N",
+        "[Answer] 0"
+      ]
+    ]
+  },
+  {
+    "id": 48,
+    "questions": [
+      "How many new medicines will be approved by the FDA until the year 2025?",
+      "How many new medicines will be approved by the FDA until the year 2028?",
+      "How many new medicines will be approved by the FDA until the year 2032?",
+      "How many new medicines will be approved by the FDA until the year 2036?",
+      "How many new medicines will be approved by the FDA until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 110",
+        "[Answer] 95",
+        "[Answer] 100"
+      ],
+      [
+        "[Answer] 250",
+        "[Answer] 200 N",
+        "[Answer] 200"
+      ],
+      [
+        "[Answer] 300 N",
+        "[Answer] 250",
+        "[Answer] 300"
+      ],
+      [
+        "[Answer] 400 N",
+        "[Answer] 580",
+        "[Answer] 540"
+      ],
+      [
+        "[Answer] 5000",
+        "[Answer] 260",
+        "[Answer] 7000"
+      ]
+    ]
+  },
+  {
+    "id": 49,
+    "questions": [
+      "How many successful human organ transplants using 3D-printed organs will be performed until the year 2025?",
+      "How many successful human organ transplants using 3D-printed organs will be performed until the year 2028?",
+      "How many successful human organ transplants using 3D-printed organs will be performed until the year 2032?",
+      "How many successful human organ transplants using 3D-printed organs will be performed until the year 2036?",
+      "How many successful human organ transplants using 3D-printed organs will be performed until the year 2040?"
+    ],
+    "responses": [
+      [
+        "[Answer] 0",
+        "[Answer] 50",
+        "[Answer] 50"
+      ],
+      [
+        "[Answer] 1500",
+        "[Answer] 1500",
+        "[Answer] 5000"
+      ],
+      [
+        "[Answer] 5000",
+        "[Answer] 1500",
+        "[Answer] 1000 N"
+      ],
+      [
+        "[Answer] 15000 N",
+        "[Answer] 15000",
+        "[Answer] 0"
+      ],
+      [
+        "[Answer] 15000",
+        "[Answer] 5000 N",
+        "[Answer] 10000"
+      ]
+    ]
+  }
+]
