@@ -64,8 +64,6 @@ My goal:
 
 ### Encountered Issues and Improvements
 
-   the original source have only the dataset but no script or explaination of how to calculate the violation, there are only equations in the paper, so we need to write python script to figure it out. Firstly, we use the json file in raw_output repository but we didn't get the same result......... 
-   
 The original repository provides only the raw JSON dataset, but no code and no procedural description of how the violation metrics were computed.
 The paper includes only the mathematical definitions (Spearman–based formula), but not the actual parsing logic or implementation details.
 Therefore, in order to reproduce the results, we had to write our own Python scripts to:
