@@ -1,18 +1,44 @@
-# Project Title
+# Reproduce and Replicate of "Evaluating Superhuman Models with Consistency Checks - LLMs forecasting future events"
 
 ## Introduction
 
-Briefly introduce the subject of the study, the problem it addresses, and the key results or insights obtained from the reproduction and replication effort.
+This study (“Evaluating Superhuman Models with Consistency Checks”, 2023) proposed a set of logical self-consistency tests for LLM forecasts: Negation, Paraphrasing, Monotonicity, Bayes’ rule.
+
+I focus on reproducing the Monotonicity experiment (50 forecasting questions × 5 years).
+This is the easiest part that can be reproduced directly from the publicly released dataset.
+
+The original paper reports (GPT-4-0314, temp=0) Monotonicity violation:
+| Model                       | Mean violation | >0.2 strong violation % |
+| --------------------------- | -------------: | ----------------------: |
+| GPT-3.5-turbo-0301(3 times) |      **0.229** |              **42.0 %** |
+| GPT-3.5-turbo-0301(6 times) |      **0.136** |              **26.0 %** |
+| GPT-4-0314(3 times)         |      **0.105** |              **16.0 %** |
+| GPT-4-0314(6 times)         |      **0.089** |              **12.0 %** |
+
+
+My goal:
+
+1. Reproduce the original reported 0.105 / 16% on the public raw log
+
+2. Replicate the experiment with a different LLM (via OpenRouter) to see if consistency holds
 
 ## Reproducibility
 
 ### How to Reproduce the Results
 
 1. **Requirements**  
+
+   | Component | Version |
+   | --------- | ------- |
+   | Python    | 3.11    |
+   | numpy     | 1.26.4  |
+   | scipy     | 1.11.4  |
+   | requests  | 2.31.0  |
+
    - List dependencies and their versions (e.g., Python, R, libraries, etc.).
    - Specify any system requirements.
 
-2. **Setting Up the Environment**  
+3. **Setting Up the Environment**  
 
    - Provide instructions for using the Dockerfile to create a reproducible environment:  
 
@@ -21,7 +47,7 @@ Briefly introduce the subject of the study, the problem it addresses, and the ke
      docker run -it reproducible-project
      ```
 
-3. **Reproducing Results**  
+4. **Reproducing Results**  
 
    - Describe how to run the automated scripts or notebooks to reproduce data and analyze results:
 
@@ -32,7 +58,7 @@ Briefly introduce the subject of the study, the problem it addresses, and the ke
    - Mention Jupyter notebooks (if applicable):  
      Open `notebooks/reproduce_results.ipynb` to execute the analysis step-by-step.
 
-4. **Automation (Bonus)**  
+5. **Automation (Bonus)**  
 
    - Explain the included GitHub Action that produces or analyzes data automatically.  
 
