@@ -1,0 +1,50 @@
+How many missions to the International Space Station will be conducted until the year {YEAR}?
+How many people will have successfully crossed Antarctica on foot by the year {YEAR}?
+How many people will have journeyed across the remote Kamchatka Peninsula in Russia by the year {YEAR}?
+How many major breakthroughs in renewable energy technology will be made until the year {YEAR}?
+What will be the women's 800 meter run world record by the year {YEAR}?
+How many people will have traversed the entire Amazon River by the year {YEAR}?
+How many people will have completed a solo, unassisted trek to both the North and South Poles by the year {YEAR}?
+What will be the 100 meter men's sprint record by the year {YEAR}?
+What will be the men's discus throw world record by the year {YEAR}?
+What will be the women's 4x400 meter relay world record by the year {YEAR}?
+What will be the women's 200 meter freestyle swimming record by the year {YEAR}?
+What will be the men's pole vault world record by the year {YEAR}?
+What will be the women's 400 meter individual medley swimming record by the year {YEAR}
+What will be the women's 4x100 meter relay world record by the year {YEAR}?
+How many people will have reached the summit of K2, the world's second-highest mountain, by the year {YEAR}?
+How many people will have successfully navigated the Northwest Passage by the year {YEAR}?
+What will be the men's high jump world record by the year {YEAR}?
+What will be the women's 100 meter hurdles world record by the year {YEAR}?
+What will be the men's javelin throw world record by the year {YEAR}?
+What will be the women's long jump world record by the year {YEAR}?
+What will be the men's triple jump world record by the year {YEAR}?
+What will be the men's 5000 meter run world record by the year {YEAR}
+What will be the men's 50 meter freestyle swimming record by the year {YEAR}?
+What will be the women's hammer throw world record by the year {YEAR}?
+What will be the men's 10,000 meter run world record by the year {YEAR}?
+How many people will have visited the North Pole by the year {YEAR}?
+How many people will have explored the remote depths of the Greenland ice sheet by the year {YEAR}?
+How many successful Mars missions will be launched by space agencies until the year {YEAR}?
+How many new species of animals will be discovered by scientists until the year {YEAR}?
+How many new elements will be added to the periodic table until the year {YEAR}?
+How many times will the Summer Olympics take place until the year {YEAR}?
+How many people will have reached the Mariana Trench's Challenger Deep by the year {YEAR}?
+How many nuclear tests will North Korea conduct until the year {YEAR}?
+What will be the women's 200 meter backstroke swimming record by the year {YEAR}?
+How many people will have climbed Mount Everest by the year {YEAR}?
+How many people will have visited the International Space Station by the year {YEAR}?
+How many people will have completed a solo, non-stop, around-the-world sailing trip by the year {YEAR}?
+How many people will have explored the world's deepest cave, Krubera Cave, by the year {YEAR}?
+How many people will have reached the South Pole by the year {YEAR}?
+How many people will have trekked across the entire Sahara Desert by the year {YEAR}?
+How many people will have climbed all 14 of the world's 8,000-meter peaks by the year {YEAR}?
+How many people will have dived to the wreck of the RMS Titanic by the year {YEAR}?
+How many people will have ventured into the heart of the Danakil Depression, one of the hottest places on Earth, by the year {YEAR}?
+How many people will get cured of cancer by the year {YEAR}?
+How many total solar eclipses will be visible on Earth until the year {YEAR}?
+How many major earthquakes (more than 7.0 on Richter scale) will occur around the world by the year {YEAR}?
+How many total lunar eclipses will be visible on Earth until the year {YEAR}?
+How many new countries will gain independence (recognized by more than half UN members) until the year {YEAR}?
+How many new medicines will be approved by the FDA until the year {YEAR}?
+How many successful human organ transplants using 3D-printed organs will be performed until the year {YEAR}?
