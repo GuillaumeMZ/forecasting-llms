@@ -40,7 +40,7 @@ My goal:
 
 3. **Setting Up the Environment**  
 
-   Use the Dockerfile to create a reproducible environment ( Please replace “yourkey” with your API key ) :
+The project uses the Dockerfile to create a reproducible environment ( Please replace “yourkey” with your API key ) :
      ```bash
      docker build -t forecasting-repro .
      docker run -it -e OPENROUTER_API_KEY="yourkey" -v [yourPath\forecast_results:\app\results] --entrypoint bash forecasting-repro
@@ -51,7 +51,7 @@ My goal:
 For convenience, the project includes a shell script that runs the entire reproduction pipeline — parsing model outputs, computing monotonicity violations, and generating summary statistics:
 
      ```bash
-     bash run.sh
+     bash reproduce.sh
      exit # to exit
      ```
 This script executes:
@@ -66,7 +66,16 @@ This script executes:
 
 5. **Automation (Bonus)**  
 
-   - Explain the included GitHub Action that produces or analyzes data automatically.  
+The project includes a GitHub Action workflow that automates the process of generating and analyzing forecasting data. This workflow allows the scripts in the repository—namely replicate.py and replicate_analyse.py—to run automatically without manual intervention, ensuring reproducibility and timely updates.
+
+- Running the Forecast Script ( As it cost a big amount of time to run, we put it in comment )
+The workflow executes replicate.py, which generates raw forecasting outputs. These outputs are stored in the results/ directory within the workflow environment.
+
+- Running the Analysis Script
+Once the raw outputs are produced, the workflow runs replicate_analyse.py to process the data. This generates summarized analysis reports in the same results/ directory.
+
+- Security Considerations
+Sensitive information, such as the OPENROUTER_API_KEY, is stored securely in GitHub Secrets and passed to the workflow at runtime. This ensures the key is never exposed in the repository or logs.
 
 ### Encountered Issues and Improvements
 
@@ -136,7 +145,7 @@ API = OpenRouter
    - Provide detailed steps or commands for running the replication(s):  
 
      ```bash
-     bash scripts/replicate_experiment.shp
+     bash replicate.sh
      ```
 
 2. **Presentation and Analysis of Results**
