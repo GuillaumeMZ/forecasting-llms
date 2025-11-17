@@ -22,11 +22,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run forecasting script
-        run: |
-          export OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}
-          python replicate.py
-
       - name: Run analysis script
         run: python replicate_analyse.py
 
