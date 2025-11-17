@@ -22,12 +22,17 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Run forecasting script
+        run: |
+          export OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}
+          python replicate.py
+
       - name: Run analysis script
         run: python replicate_analyse.py
 
       - name: Upload results as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: forecasting-results
-          path: results/
+            name: forecasting-results
+            path: results/
 
