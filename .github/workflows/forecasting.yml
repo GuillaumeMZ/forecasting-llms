@@ -1,0 +1,32 @@
+name: Forecasting Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-and-analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run analysis script
+        run: python replicate_analyse.py
+
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: forecasting-results
+          path: results/
