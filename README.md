@@ -68,7 +68,7 @@ This script executes:
 
 The project includes a GitHub Action workflow that automates the process of generating and analyzing forecasting data. This workflow allows the scripts in the repository—namely replicate.py and replicate_analyse.py—to run automatically without manual intervention, ensuring reproducibility and timely updates.
 
-- Running the Forecast Script
+- Running the Forecast Script ( As it cost a big amount of time to run, we put it in comment )
 The workflow executes replicate.py, which generates raw forecasting outputs. These outputs are stored in the results/ directory within the workflow environment.
 
 - Running the Analysis Script
