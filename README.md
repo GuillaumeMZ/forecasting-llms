@@ -157,10 +157,63 @@ API = OpenRouter
    | GPT-4-0314(6 times)            |      **0.089** |                **12.0 %** |
    | **openai/gpt-4.1-mini (ours)** |      **0.326** |                 **47.8%** |
 
-Replication confirms the core claim of the paper: weaker models violate logical monotonicity more often.
+1. Mean Violation
 
-   - Include results in text, tables, or figures.
-   - Analyze and compare with the original study's findings.
+Definition: Mean violation measures the average degree to which a model’s predictions violate a given constraint. Lower values indicate better adherence.
+
+Observations:
+
+The GPT-4 series has significantly lower mean violations than GPT-3.5, indicating more consistent adherence to constraints.
+
+Increasing the number of repetitions (from 3 to 6) reduces mean violation for both GPT-3.5 and GPT-4. For example:
+
+GPT-3.5-turbo-0301 drops from 0.229 → 0.136
+
+GPT-4-0314 drops from 0.105 → 0.089
+
+Our gpt-4.1-mini has the highest mean violation (0.326), suggesting it is more prone to constraint violations.
+
+2. Strong Violation Percentage (% >0.2)
+
+Definition: The percentage of predictions exceeding a violation threshold of 0.2. Lower values are better.
+
+Observations:
+
+GPT-4 models have the lowest strong violation rates (12–16%), while GPT-3.5 is higher (26–42%).
+
+Running multiple repetitions reduces strong violation rates for all models.
+
+gpt-4.1-mini has the highest strong violation rate (47.8%), consistent with its high mean violation.
+
+3. Trends
+
+Model improvements: GPT-4 outperforms GPT-3.5 in both mean and strong violations.
+
+Effect of repetition: More sampling repetitions improve stability and reduce violations.
+
+Characteristics of gpt-4.1-mini: This model is more likely to produce larger violations, which may be due to differences in training, fine-tuning, or inference strategy.
+
+4. Potential Improvements
+
+For gpt-4.1-mini, possible improvements include:
+
+Increasing the number of predictions and averaging or using majority voting.
+
+Adding constraint-focused prompt instructions.
+
+Fine-tuning or calibrating the model to reduce high-violation outputs.
+
+! Caution on Model Comparison
+
+While we present the results of our gpt-4.1-mini model alongside GPT-3.5 and GPT-4 baselines, it is important to note that our results may not be fully comparable to those reported in the original papers.
+
+- We were unable to exactly reproduce the numerical values reported in the original studies.
+
+- This discrepancy suggests that the original papers may have used their own calculation methods or evaluation procedures, which were not fully disclosed.
+
+- For example, metrics like the Spearman rank correlation coefficient could have been computed differently at that time.
+
+As a result, any direct comparison with the published numbers should be interpreted with caution, and the absolute values reported here may not reflect the original benchmarks accurately.
 
 ### Does It Confirm the Original Study?
 
@@ -175,3 +228,27 @@ Replication shows that a weaker model is far more logically inconsistent, exactl
 
 - Recap findings from the reproducibility and replicability sections.
 - Discuss limitations of your
+- 
+
+## Appendix: Generate 50 questions (base_questions_50.txt)
+
+In the official monotonicity raw JSON, each item contains 5 versions of the same question (2025 / 2028 / 2032 / 2036 / 2040).
+The first question in the list (questions[0]) is always the 2025 formulation.
+We therefore extract that base form and replace 2025 with the placeholder {YEAR}.
+   ```bash
+   import json
+   
+   src = "raw_outputs/monotonic_sequence_gpt-4-0314_method_1shot_climbers_T_0.0_times_3_mt_400.json"
+   YE="2025"
+   
+   out=[]
+   for item in json.load(open(src,encoding="utf-8")):
+       base=item["questions"][0]
+       base=base.replace(YE,"{YEAR}")
+       out.append(base)
+   
+   with open("base_questions_50.txt","w",encoding="utf-8") as f:
+       for q in out:
+           f.write(q+"\n")
+   ```
+The resulting text file contains exactly 50 lines — one template per monotonicity item.
