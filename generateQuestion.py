@@ -10,10 +10,7 @@ YEARS = [2025,2028,2032,2036,2040]
 questions_50 = []
 
 for item in data:
-    # take the 2025 version (index=0)
-    q0 = item["questions"][0]   # e.g., "... by the year 2025?"
-
-    # make generic: replace "2025" with {YEAR}
+    q0 = item["questions"][0]
     base = q0.replace("2025","{YEAR}")  
     questions_50.append(base)
 

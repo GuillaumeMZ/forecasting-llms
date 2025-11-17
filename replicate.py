@@ -50,7 +50,7 @@ for idx, base in enumerate(base_questions):
             print("→", q, "(run",run,")")
             out = ask(q)
             row.append(out)
-            time.sleep(1.2)   # polite delay
+            time.sleep(1.2)
 
         item["responses"].append(row)
 

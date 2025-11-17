@@ -2,6 +2,7 @@ import json, re
 import numpy as np
 from scipy.stats import spearmanr
 
+# monotonic analyse
 json_path = "raw_outputs/monotonic_sequence_gpt-4-0314_method_1shot_climbers_T_0.0_times_3_mt_400.json"
 
 YEARS = [2025, 2028, 2032, 2036, 2040]
