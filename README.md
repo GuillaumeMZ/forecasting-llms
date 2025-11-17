@@ -40,20 +40,26 @@ My goal:
 
 3. **Setting Up the Environment**  
 
-   - Provide instructions for using the Dockerfile to create a reproducible environment:  
-
+   Use the Dockerfile to create a reproducible environment ( Please replace “yourkey” with your API key ) :
      ```bash
-     docker build -t reproducible-project .
-     docker run -it reproducible-project
+     docker build -t forecasting-repro .
+     docker run -it -e OPENROUTER_API_KEY="yourkey" -v [yourPath\forecast_results:\app\results] --entrypoint bash forecasting-repro
      ```
 
 4. **Reproducing Results**  
 
-   - Describe how to run the automated scripts or notebooks to reproduce data and analyze results:
+For convenience, the project includes a shell script that runs the entire reproduction pipeline — parsing model outputs, computing monotonicity violations, and generating summary statistics:
 
      ```bash
-     bash scripts/run_analysis.sh
+     bash run.sh
+     exit # to exit
      ```
+This script executes:
+
+- replicate.py – queries the model and saves raw outputs
+
+- replicate_analyse.py – extracts numeric answers and computes monotonicity metrics
+
 
    - Mention Jupyter notebooks (if applicable):  
      Open `notebooks/reproduce_results.ipynb` to execute the analysis step-by-step.
