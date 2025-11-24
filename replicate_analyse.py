@@ -3,7 +3,7 @@ import numpy as np
 from scipy.stats import spearmanr
 
 json_path = "raw_openai_gpt41mini_monotonic.json"
-
+json_path2 ="raw_deepseek_monotonic.json"
 YEARS = [2025,2028,2032,2036,2040]
 
 answer_re = re.compile(r'\[Answer\]\s*([0-9]*\.?[0-9]+)')
@@ -15,20 +15,34 @@ def extract_answer(text):
 with open(json_path,"r",encoding="utf-8") as f:
     data = json.load(f)
 
-viol=[]
-for item in data:
-    meds=[]
-    for year_block in item["responses"]:
-        nums=[extract_answer(x) for x in year_block]
-        nums=[x for x in nums if x is not None]
-        if len(nums)<2:
-            break
-        meds.append(np.median(nums))
-    if len(meds)!=5: continue
-    rho,_ = spearmanr(YEARS,meds)
-    if np.isnan(rho): rho=1.0
-    viol.append((1-rho)/2)
+with open(json_path2,"r",encoding="utf-8") as f:
+    data2 = json.load(f)
 
-viol=np.array(viol)
-print("Mean violation:",float(np.mean(viol)))
-print("Percentage >0.2:",float(np.mean(viol>0.2))*100,"%")
+def analyze(data, dataset_name):
+    violations = []
+    for item in data:
+        medians = []
+        for year_block in item["responses"]:
+            nums = [extract_answer(x) for x in year_block]
+            nums = [x for x in nums if x is not None]
+            if len(nums) < 2:
+                break
+            medians.append(np.median(nums))
+        if len(medians) != 5: 
+            continue
+        rho, _ = spearmanr(YEARS, medians)
+        if np.isnan(rho): 
+            rho = 1.0
+        violations.append((1 - rho) / 2)
+
+    violations = np.array(violations)
+    
+    print(f"\n=== {dataset_name} Analysis Results ===")
+    print("Mean violation score:", float(np.mean(violations)))
+    print("Percentage with violation > 0.2:", float(np.mean(violations > 0.2)) * 100, "%")
+    print("Total questions analyzed:", len(violations))
+    
+    return violations
+
+viol_gpt = analyze(data, "GPT-4.1-mini")
+viol_deepseek = analyze(data2, "DeepSeek")

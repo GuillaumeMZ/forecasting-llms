@@ -3,7 +3,8 @@ import os, json, time, requests
 
 API_KEY = os.environ["OPENROUTER_API_KEY"]
 
-model = "openai/gpt-4.1-mini"
+#model = "openai/gpt-4.1-mini"
+model = "deepseek/deepseek-chat"
 
 YEARS = [2025,2028,2032,2036,2040]
 T = 3          # runs per question
@@ -59,4 +60,5 @@ for idx, base in enumerate(base_questions):
 with open("raw_openai_gpt41mini_monotonic.json","w",encoding="utf-8") as f:
     json.dump(results,f,indent=2,ensure_ascii=False)
 
-print("DONE saved: raw_openai_gpt41mini_monotonic.json")
+#print("DONE saved: raw_openai_gpt41mini_monotonic.json")
+print("DONE saved: raw_deepseek_monotonic.json")

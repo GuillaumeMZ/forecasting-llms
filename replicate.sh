@@ -1,5 +1,3 @@
-#!/bin/bash
-
 set -e   # stop on error
 
 echo "=============================="
@@ -27,7 +25,7 @@ echo " Raw output will be saved to: $raw_file"
 echo " Analysis will be saved to: $analysis_file"
 echo ""
 
-# Step 1: Run replicate.py
+# Run replicate.py
 echo " Running replicate.py …"
 python replicate.py
 
@@ -40,7 +38,7 @@ fi
 mv raw_openai_gpt41mini_monotonic.json "$raw_file"
 echo "Raw results saved."
 
-# Step 2: Run replicate_analyse.py
+# Run replicate_analyse.py
 echo "Running replicate_analyse.py …"
 python replicate_analyse.py "$raw_file" > "$analysis_file"
 
