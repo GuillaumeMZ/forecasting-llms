@@ -1,0 +1,78 @@
+{
+    "models": ["openai/gpt-4-0314"],
+    "temperatures": [0.0, 0.5],
+    "context": "The user needs help on a few prediction market questions. You should always output a single best probability estimate, without any intervals.\nIt is important that you do not output the probability outright. Rather, you should consider multiple views, along with the intermediate estimates; and only then produce the final numerical answer in the last line, like this:\n\n[Answer] 0.5",
+    "questions": [
+        {
+            "id": "dark_matter",
+            "questions": [
+                "Will we know what Dark Matter is before 2050?",
+                "Will we not know what Dark Matter is before 2050?"
+            ]
+        },
+        {
+            "id": "elon_musk",
+            "questions": [
+                "Will Elon Musk personally set foot on the moon by 2030?",
+                "Will Elon Musk not personally set foot on the moon by 2030?"
+            ]
+        },
+        {
+            "id": "china_taiwan",
+            "questions": [
+                "Will China recognize the sovereignty of Taiwan by 2050?",
+                "Will China not recognize the sovereignty of Taiwan by 2050?"
+            ]
+        },
+        {
+            "id": "climeworks",
+            "questions": [
+                "Will Climeworks still exist in 2030?",
+                "Will Climeworks not exist in 2030?"
+            ]
+        },
+        {
+            "id": "betelgeuse",
+            "questions": [
+                "Will the star Betelgeuse be observed to go supernova before 2030?",
+                "Will the star Betelgeuse not be observed to go supernova before 2030?"
+            ]
+        },
+        {
+            "id": "australia_car_sales",
+            "questions": [
+                "What percentage of new passenger car sales in Australia in 2030 will be electric vehicles?",
+                "What percentage of new passenger car sales in Australia in 2030 will not be electric vehicles?"
+        
+            ]
+        },
+        {
+            "id": "lgbtq_president",
+            "questions": [
+                "Will an openly LGBTQ person be elected President of the United States by 2041?",
+                "Will no openly LGBTQ person be elected President of the United States by 2041?"
+            ]
+        },
+        {
+            "id": "robocup",
+            "questions": [
+                "Will Robots win the Robocup challenge, beating professional soccer players by 2050?",
+                "Will Robots not win the Robocup challenge, not beating professional soccer players by 2050?"
+            ]
+        },
+        {
+            "id": "humans_on_mars",
+            "questions": [
+                "Will the population of living, biological humans residing on Mars be greater than or equal to one million before 2075-01-01?",
+                "Will the population of living, biological humans residing on Mars be less than one million before 2075-01-01?"
+            ]
+        },
+        {
+            "id": "ireland_reunification",  
+            "questions": [
+                "Will Northern Ireland hold a reunification referendum before 2030?",
+                "Will Northern Ireland not hold a reunification referendum before 2030?"
+            ]
+        }
+    ]
+}
