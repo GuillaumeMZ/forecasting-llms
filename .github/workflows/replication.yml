@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r Replication/requirements.txt
 
       #- name: Run forecasting script
       #  run: |

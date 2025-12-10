@@ -1,0 +1,52 @@
+{
+    "models": ["openai/gpt-4-0314"],
+    "temperatures": [0.0, 0.5],
+    "context": "The user needs help on a few prediction market questions. You should always output a single best probability estimate, without any intervals.\nIt is important that you do not output the probability outright. Rather, you should consider multiple views, along with the intermediate estimates; and only then produce the final numerical answer in the last line, like this:\n\n[Answer] 0.5",
+    "questions": [
+        {
+            "id": "new_social_media",
+            "questions": [
+                "Will a new social media platform surpass 100 million active users by the end of 2024?",
+                "Will there be a significant increase in global internet usage by the end of 2024?",
+                "Conditional on a new social media platform surpassing 100 million active users by the end of 2024, will there be a significant increase in global internet usage by the same time?",
+                "Conditional on a significant increase in global internet usage by the end of 2024, will a new social media platform surpass 100 million active users by the same time?"
+            ]
+        },
+        {
+            "id": "breakthrough_battery",
+            "questions": [
+                "Will a major breakthrough in battery technology occur by 2030?",
+                "Will electric vehicle sales surpass 50% of global car sales by 2030?",
+                "Conditional on a major breakthrough in battery technology occurring by 2030, will electric vehicle sales surpass 50% of global car sales by the same time?",
+                "Conditional on electric vehicle sales surpassing 50% of global car sales by 2030, will a major breakthrough in battery technology occur by the same time?"
+            ]
+        },
+        {
+            "id": "manned_mission_mars",
+            "questions": [
+                "Will a manned mission to Mars take place before 2040?",
+                "Will a major scientific discovery be made on the Moon by 2040?",
+                "Conditional on a manned mission to Mars taking place before 2040, will a major scientific discovery be made on the Moon by the same time?",
+                "Conditional on a major scientific discovery being made on the Moon by 2040, will a manned mission to Mars take place by the same time?"
+            ]
+        },
+        {
+            "id": "universal_basic_income",
+            "questions": [
+                "Will a universal basic income policy be implemented in a G7 country by 2035?",
+                "Will the global unemployment rate decrease by 2 percentage points by 2035?",
+                "Conditional on a universal basic income policy being implemented in a G7 country by 2035, will the global unemployment rate decrease by 2 percentage points by the same time?",
+                "Conditional on the global unemployment rate decreasing by 2 percentage points by 2035, will a universal basic income policy be implemented in a G7 country by the same time?"
+            ]
+        },
+        {
+            "id": "breakthrough_fusion_energy",
+            "questions": [
+                "Will a major breakthrough in fusion energy be achieved by 2045?",
+                "Will global carbon emissions decrease by 40% from 2020 levels by 2045?",
+                "Conditional on a major breakthrough in fusion energy being achieved by 2045, will global carbon emissions decrease by 40% from 2020 levels by the same time?",
+                "Conditional on global carbon emissions decreasing by 40% from 2020 levels by 2045, will a major breakthrough in fusion energy be achieved by the same time?"
+            ]
+        }
+    ]
+}

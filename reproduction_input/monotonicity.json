@@ -1,0 +1,57 @@
+{
+    "models": ["openai/gpt-4-0314"],
+    "temperatures": [0.0, 0.5],
+    "context": "The user needs help on a few prediction market questions.  You should always output a single best numerical estimate, without any intervals.\nIt is important you do not output the answer outright. Rather, you should consider multiple views, along with the intermediate estimates; and only then produce the final answer in the last line, like this: \n\n[Answer] 50. \n",
+    "questions": [
+        {
+            "id": "100m_sprint_record",
+            "questions": [
+                "What will be the 100 meter men's sprint record by the year 2025?",
+                "What will be the 100 meter men's sprint record by the year 2028?",
+                "What will be the 100 meter men's sprint record by the year 2032?",
+                "What will be the 100 meter men's sprint record by the year 2036?",
+                "What will be the 100 meter men's sprint record by the year 2040?"
+            ]
+        },
+        {
+            "id": "women_long_jump_record",
+            "questions": [
+                "What will be the women's long jump world record by the year 2025?",
+                "What will be the women's long jump world record by the year 2028?",
+                "What will be the women's long jump world record by the year 2032?",
+                "What will be the women's long jump world record by the year 2036?",
+                "What will be the women's long jump world record by the year 2040?"
+            ]
+        },
+        {
+            "id": "women_200m_freestyle_swim_record",
+            "questions": [
+                "What will be the women's 200 meter freestyle swimming record by the year 2025?",
+                "What will be the women's 200 meter freestyle swimming record by the year 2028?",
+                "What will be the women's 200 meter freestyle swimming record by the year 2032?",
+                "What will be the women's 200 meter freestyle swimming record by the year 2036?",
+                "What will be the women's 200 meter freestyle swimming record by the year 2040?"
+            ]
+        },
+        {
+            "id": "men_high_jump_record",
+            "questions": [
+                "What will be the men's high jump world record by the year 2025?",
+                "What will be the men's high jump world record by the year 2028?",
+                "What will be the men's high jump world record by the year 2032?",
+                "What will be the men's high jump world record by the year 2036?",
+                "What will be the men's high jump world record by the year 2040?"
+            ]
+        },
+        {
+            "id": "women_100m_hurdles_record",
+            "questions": [
+                "What will be the women's 100 meter hurdles world record by the year 2025?",
+                "What will be the women's 100 meter hurdles world record by the year 2028?",
+                "What will be the women's 100 meter hurdles world record by the year 2032?",
+                "What will be the women's 100 meter hurdles world record by the year 2036?",
+                "What will be the women's 100 meter hurdles world record by the year 2040?"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "models": ["openai/gpt-4-0314"],
+    "temperatures": [0.0, 0.5],
+    "context": "The user needs help on a few prediction market questions. You should always output a single best probability estimate, without any intervals.\nIt is important that you do not output the probability outright. Rather, you should consider multiple views, along with the intermediate estimates; and only then produce the final numerical answer in the last line, like this:\n\n[Answer] 0.5",
+    "questions": [
+        {
+            "id": "us_gdp",
+            "questions": [
+                "In any year before Q1 2030, will the US record a real GDP annual growth rate of greater than 8.7%, beating the record set in 1950?",
+                "Will the US surpass the real GDP annual growth rate of 8.7% set in 1950 before Q1 2030?",
+                "Will the US achieve an annual real GDP growth rate greater than 8.7% before the first quarter of 2030, surpassing the record set in 1950?",
+                "Before Q1 2030, will the US be able to exceed the record set in 1950 and record real GDP annual growth rate of more than 8.7%?"
+            ]
+        },
+        {
+            "id": "satellite_loss",
+            "questions": [
+                "By 2050 will we have had a one year period in which we will have lost at least 10% of our operational satellites due to collisions with space junk?",
+                "Will it happen that in a period of one year by 2050, we will experience a loss of at least 10% of our operational satellites due to space debris collisions?",
+                "By year 2050, will we encounter a one-year period during which we will suffer a minimum of 10% operational satellite loss due to collisions with space debris?",
+                "In the year 2050, will we undergo a one-year duration in which we will lose at least 10% of our functional satellites as a result of colliding with space debris?"
+            ]
+        },
+        {
+            "id": "transistor_evolution",
+            "questions": [
+                "Will the transistors used in the CPU of Apple's most modern available iPhone model on January 1st, 2030 be of the same generation as those used in the CPU of the most modern available iPhone on January 1st, 2025?",
+                "In 2030, will the latest iPhone model's CPU transistors be of the same generation as the transistors used in the most recent iPhone model in 2025?",
+                "Are the CPU transistors in Apple's most advanced iPhone model on January 1st, 2030 going to be from the same generation as those used in the most up-to-date iPhone model available on January 1st, 2025?",
+                "By 2030, will the CPU transistors utilized in Apple's latest iPhone model be of the same generation as the transistors utilized in the most recent iPhone model available in 2025?"
+            ]
+        },
+        {
+            "id": "2100_humanity_evolution",
+            "questions": [
+                "Before January 1 2100, will the human condition change fundamentally to at least roughly the same extent that it did after the agricultural and industrial revolutions?",
+                "Will the human condition undergo a fundamental change similar to the ones that occurred after the agricultural and industrial revolutions, before the year 2100?",
+                "Will a change of similar magnitude to the ones after the agricultural and industrial revolutions occur in the human condition prior to January 1, 2100?",
+                "Will a fundamental change in the human condition, comparable to that after the agricultural and industrial revolutions, occur by January 1, 2100?"
+            ]
+        },
+        {
+            "id": "computer_simulations",
+            "questions": [
+                "By the year 2100, will computer simulations be run with sufficiently high fidelity to the current consensus physical reality experienced by Metaculus users in 2016-2018 that all of the participation in Metaculus thus far and over the coming ~2 years could in practice be so simulated?",
+                "Will, by the year 2100, computer simulations have advanced enough to accurately replicate the physical reality experienced by Metaculus users between 2016 and 2018, making it possible to simulate all of the participation in Metaculus up to the next two years?",
+                "Will it be possible to use computer simulations with a high enough degree of accuracy to replicate the physical reality experienced by Metaculus users between 2016 and 2018, and to use this to simulate all participation up to the next two years by 2100?",
+                "Will computer simulations reach a level of fidelity by 2100 that would enable them to replicate the physical reality experienced by Metaculus users from 2016 to 2018 with sufficient accuracy to simulate all participation up to the next two years?"
+            ]
+        }
+    ]
+}
