@@ -20,8 +20,9 @@ Briefly introduce the subject of the study, the problem it addresses, and the ke
     |scipy|1.16.3|
 
 2. **Setting Up the Environment**  
+     - Clone the repository and open a terminal in the project's root folder.
 
-     - Create a `.env` file in the root directory containing your OpenRouter API key:
+     - Create a `.env` file in the project's root directory containing your OpenRouter API key:
 
         ```sh
         echo "OPENROUTER_API_KEY=<your key here>" > .env
@@ -30,7 +31,7 @@ Briefly introduce the subject of the study, the problem it addresses, and the ke
      - Build the Docker image:
 
         ```sh
-        docker build -t forecasting_llms_repro .
+        docker build -t forecasting_llms_repro ./reproduction
         ```
 
      - Run the Docker image:
