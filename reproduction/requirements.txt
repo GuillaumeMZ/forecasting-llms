@@ -1,0 +1,5 @@
+python-dotenv==1.2.1
+matplotlib==3.10.7
+openrouter==0.0.19
+polars==1.35.2
+scipy==1.16.3
