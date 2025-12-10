@@ -119,38 +119,6 @@ The percentages of strong violations that we found are far higher than the origi
    | scipy     | 1.11.4  |
    | requests  | 2.31.0  |
 
-### Variability Factors
-
-- **List of Factors**: Identify all potential sources of variability (e.g., dataset splits, random seeds, hardware).  
-  Example table:
-
-| Factor         | Values                        | relevance                |
-| -------------- | ----------------------------- | ------------------------ |
-| model          | gpt-4-0314 vs YOUR-MODEL-NAME | main causal factor       |
-| temperature    | 0.0, 0.5                      | affects variance         |
-| #runs per year | 3,6                           | affects median stability |
-| JSON structure | dict vs string                | affects parser           |
-......
-
-- **Constraints Across Factors**:  
-  - Document any constraints or interdependencies among variability factors.  
-    For example:
-    - Random Seed must align with dataset splits for consistent results.
-    - Hardware constraints may limit the choice of GPU-based factors.
-
-- **Exploring Variability Factors via CLI (Bonus)**  
-
-  - Provide instructions to use the command-line interface (CLI) to explore variability factors and their combinations:  
-
-     ```bash
-     python explore_variability.py --random-seed 42 --hardware GPU --dataset-version v1.1
-     ```
-
-  - Describe the functionality and parameters of the CLI:
-    - `--random-seed`: Specify the random seed to use.
-    - `--hardware`: Choose between CPU or GPU.
-    - `--dataset-version`: Select the dataset version.
-
 ### Replication Execution
 
 We re-asked the same 50×5 questions using:
