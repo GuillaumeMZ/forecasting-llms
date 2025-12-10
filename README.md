@@ -123,7 +123,7 @@ The percentages of strong violations that we found are far higher than the origi
 
 We re-asked the same 50×5 questions using:
 
-model: "openai/gpt-4.1-mini"
+model: "openai/gpt-4.1-mini", "deepseek/deepseek-chat"
 
 temp = 0.0
 
@@ -139,13 +139,15 @@ API = OpenRouter
      ```
 
 2. **Presentation and Analysis of Results**
-   | Model                          | Mean violation | % strong violation (>0.2) |
-   | ------------------------------ | -------------: | ------------------------: |
-   | GPT-3.5-turbo-0301(3 times)    |      **0.229** |                **42.0 %** |
-   | GPT-3.5-turbo-0301(6 times)    |      **0.136** |                **26.0 %** |
-   | GPT-4-0314(3 times)            |      **0.105** |                **16.0 %** |
-   | GPT-4-0314(6 times)            |      **0.089** |                **12.0 %** |
-   | **openai/gpt-4.1-mini (ours)** |      **0.326** |                 **47.8%** |
+   | Model                             | Temperature | Mean violation | % strong violation (>0.2) |
+   | --------------------------------- | ----------: | -------------: | ------------------------: |
+   | GPT-3.5-turbo-0301(3 times)       |     **0.0** |      **0.229** |                **42.0 %** |
+   | GPT-3.5-turbo-0301(6 times)       |     **0.5** |      **0.136** |                **26.0 %** |
+   | GPT-4-0314(3 times)               |     **0.0** |      **0.105** |                **16.0 %** |
+   | GPT-4-0314(6 times)               |     **0.5** |      **0.089** |                **12.0 %** |
+   | **openai/gpt-4.1-mini (ours)**    |     **0.0** |      **0.326** |                 **47.8%** |
+   | **deepseek/deepseek-chat (ours)** |     **0.0** |      **0.253** |                 **42.0%** |
+
 
 1. Mean Violation
 
@@ -163,6 +165,8 @@ GPT-4-0314 drops from 0.105 → 0.089
 
 Our gpt-4.1-mini has the highest mean violation (0.326), suggesting it is more prone to constraint violations.
 
+DeepSeek performs better than gpt-4.1-mini but still significantly worse than GPT-4.
+
 2. Strong Violation Percentage (% >0.2)
 
 Definition: The percentage of predictions exceeding a violation threshold of 0.2. Lower values are better.
@@ -175,6 +179,8 @@ Running multiple repetitions reduces strong violation rates for all models.
 
 gpt-4.1-mini has the highest strong violation rate (47.8%), consistent with its high mean violation.
 
+DeepSeek’s strong violation rate (42.0%) is similar to GPT-3.5’s.
+
 3. Trends
 
 Model improvements: GPT-4 outperforms GPT-3.5 in both mean and strong violations.
@@ -182,6 +188,8 @@ Model improvements: GPT-4 outperforms GPT-3.5 in both mean and strong violations
 Effect of repetition: More sampling repetitions improve stability and reduce violations.
 
 Characteristics of gpt-4.1-mini: This model is more likely to produce larger violations, which may be due to differences in training, fine-tuning, or inference strategy.
+
+DeepSeek’s behavior: DeepSeek’s mean violation and strong-violation rate position it between GPT-3.5 and gpt-4.1-mini.
 
 4. Potential Improvements
 
@@ -211,8 +219,15 @@ Qualitatively — YES.
 
 Replication shows that a weaker model is far more logically inconsistent, exactly as hypothesis predicts: monotonic constraints are broken more frequently by less capable LLMs.
 
-- Summarize the extent to which the replication supports the original study’s conclusions.
-- Highlight similarities and differences, if any.
+GPT-4 remains the most consistent.
+
+GPT-3.5 is less reliable.
+
+Smaller / less capable models (gpt-4.1-mini, DeepSeek) show significantly larger violations.
+
+Increasing sampling reduces noise but does not change the ordering.
+
+The overall rank order of consistency is unchanged from the original paper.
 
 ## Conclusion
 
