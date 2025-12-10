@@ -28,7 +28,7 @@ jobs:
       #    python replicate.py
     
       - name: Run analysis script
-        run: python replicate_analyse.py
+        run: python Replication/replicate_analyse.py
 
       - name: Upload results as artifact
         uses: actions/upload-artifact@v4

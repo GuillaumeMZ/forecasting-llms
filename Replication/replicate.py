@@ -10,7 +10,7 @@ YEARS = [2025,2028,2032,2036,2040]
 T = 3          # runs per question
 
 # load 50 base templates
-with open("base_questions_50.txt",encoding="utf-8") as f:
+with open("Replication/base_questions_50.txt",encoding="utf-8") as f:
     base_questions = [l.strip() for l in f if l.strip()]
 
 headers = {
@@ -57,7 +57,7 @@ for idx, base in enumerate(base_questions):
 
     results.append(item)
 
-with open("raw_openai_gpt41mini_monotonic.json","w",encoding="utf-8") as f:
+with open("Replication/raw_openai_gpt41mini_monotonic.json","w",encoding="utf-8") as f:
     json.dump(results,f,indent=2,ensure_ascii=False)
 
 #print("DONE saved: raw_openai_gpt41mini_monotonic.json")

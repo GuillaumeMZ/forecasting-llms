@@ -27,7 +27,7 @@ echo ""
 
 # Run replicate.py
 echo " Running replicate.py …"
-python replicate.py
+python Replication/replicate.py
 
 # assume output file name inside replicate.py:
 if [ ! -f "raw_openai_gpt41mini_monotonic.json" ]; then
@@ -40,7 +40,7 @@ echo "Raw results saved."
 
 # Run replicate_analyse.py
 echo "Running replicate_analyse.py …"
-python replicate_analyse.py "$raw_file" > "$analysis_file"
+python Replication/replicate_analyse.py "$raw_file" > "$analysis_file"
 
 echo "Analysis saved."
 echo ""

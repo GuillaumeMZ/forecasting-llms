@@ -2,8 +2,8 @@ import json, re
 import numpy as np
 from scipy.stats import spearmanr
 
-json_path = "raw_openai_gpt41mini_monotonic.json"
-json_path2 ="raw_deepseek_monotonic.json"
+json_path = "Replication/raw_openai_gpt41mini_monotonic.json"
+json_path2 ="Replication/raw_deepseek_monotonic.json"
 YEARS = [2025,2028,2032,2036,2040]
 
 answer_re = re.compile(r'\[Answer\]\s*([0-9]*\.?[0-9]+)')

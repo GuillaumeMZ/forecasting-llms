@@ -15,6 +15,6 @@ for item in data:
     questions_50.append(base)
 
 # save file
-with open("base_questions_50.txt","w",encoding="utf-8") as f:
+with open("Replication/base_questions_50.txt","w",encoding="utf-8") as f:
     for q in questions_50:
         f.write(q+"\n")
