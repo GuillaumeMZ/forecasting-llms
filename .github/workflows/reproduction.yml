@@ -15,22 +15,23 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Navigate to reproduction directory
-        run: cd reproduction
-
       - name: Install dependencies
+        working-directory: reproduction
         run: |
           python3 -m pip install -r requirements.txt
 
       - name: Create .env file
+        working-directory: reproduction
         run: |
           echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" >> .env
 
       - name: Create output directory
+        working-directory: reproduction
         run: |
           mkdir workflow_output
 
       - name: Run reproduction script
+        working-directory: reproduction
         run: |
           python3 -m reproduction reproduction_input workflow_output
 
@@ -38,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             name: reproduction-results
-            path: workflow_output/
+            path: reproduction/workflow_output/
