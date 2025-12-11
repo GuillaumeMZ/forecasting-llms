@@ -1,2 +1,3 @@
 forecast_results/
 __pycache__/
+.env

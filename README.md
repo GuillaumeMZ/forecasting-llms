@@ -4,23 +4,7 @@
 
 This study (“Evaluating Superhuman Models with Consistency Checks”, 2023) proposed a set of logical self-consistency tests for LLM forecasts: Negation, Paraphrasing, Monotonicity, Bayes’ rule.
 
-I focus on **reproducing the Monotonicity experiment** (50 forecasting questions × 5 years).
-This is the easiest part that can be reproduced directly from the publicly released dataset.
-
-The original paper reports (GPT-4-0314, temp=0) Monotonicity violation:
-| Model                       | Mean violation | >0.2 strong violation % |
-| --------------------------- | -------------: | ----------------------: |
-| GPT-3.5-turbo-0301(3 times) |      **0.229** |              **42.0 %** |
-| GPT-3.5-turbo-0301(6 times) |      **0.136** |              **26.0 %** |
-| GPT-4-0314(3 times)         |      **0.105** |              **16.0 %** |
-| GPT-4-0314(6 times)         |      **0.089** |              **12.0 %** |
-
-
-My goal:
-
-1. Reproduce the original reported 0.105 / 16% on the public raw log
-
-2. Replicate the experiment with a different LLM (via OpenRouter) to see if consistency holds
+We focused on reproducing this experiment, then replicating it with other LLMs to evaluate the potential consistency differences between them.
 
 ## Reproducibility
 
@@ -40,7 +24,13 @@ My goal:
 2. **Setting Up the Environment**  
      - Clone the repository and open a terminal in the project's root folder.
 
-     - Create a `.env` file in the project's root directory containing your OpenRouter API key:
+     - Navigate to the `reproduction` folder:
+
+        ```sh
+         cd reproduction
+        ```
+
+     - Create a `.env` file containing your OpenRouter API key:
 
         ```sh
         echo "OPENROUTER_API_KEY=<your key here>" > .env
@@ -49,7 +39,7 @@ My goal:
      - Build the Docker image:
 
         ```sh
-        docker build -t forecasting_llms_repro ./reproduction
+        docker build -t forecasting_llms_repro .
         ```
 
      - Run the Docker image:
@@ -66,27 +56,18 @@ My goal:
 
 4. **Automation (Bonus)**  
 
-   The project includes a GitHub Action workflow that automates the process of generating and analyzing forecasting data. This workflow allows the scripts in the repository—namely replicate.py and replicate_analyse.py—to run automatically without manual intervention, ensuring reproducibility and timely updates.
-
-   - Running the Forecast Script ( As it cost a big amount of time to run, we put it in comment )
-   The workflow executes replicate.py, which generates raw forecasting outputs. These outputs are stored in the results/ directory within the workflow environment.
-
-   - Running the Analysis Script
-   Once the raw outputs are produced, the workflow runs replicate_analyse.py to process the data. This generates summarized analysis reports in the same results/ directory.
-
-   - Security Considerations
-   Sensitive information, such as the OPENROUTER_API_KEY, is stored securely in GitHub Secrets and passed to the workflow at runtime. This ensures the key is never exposed in the repository or logs.
+   This project includes two GitHub workfows: one for the reproduction process and one for the replication process.
 
 ### Encountered Issues
 
 - The authors didn't provide any code to run the experimentations. We had to write everything ourselves.
 - The authors didn't provide the list of questions itself but only the results, which included the questions (deeply nested in JSON files). Due to the complexity of these JSONs, we extracted the questions manually into our own JSONs to make the reproduction process simpler.
 - The original study contained **a lot** of questions. Because of limited time (and money), we decided to focus on a subset of these questions for the reproduction part.
-- The authors used two different AI models in their study: GPT 3.5 turbo 0301 and GPT 4 0314. However, GPT 3.5 turbo 0301 is not available anymore on OpenRouter, so we focused on reproducing the results with GPT 4 0314 only.
+- The authors used two different AI models in their study: GPT-3.5-turbo-0301 and GPT-4-0314. However, GPT-3.5-turbo-0301 is not available anymore on OpenRouter, so we focused on reproducing the results with GPT-4-0314 only.
 
 ### Is the Original Study Reproducible?
 
-We reproduced the four properties (bayes, monotonicity, negation, paraphrasing) on GPT 4 0314 with a subset of the original questions for each property.
+We reproduced the four properties (bayes, monotonicity, negation, paraphrasing) on GPT-4-0314 with a subset of the original questions for each property.
 
 The paper states that "Both GPT-3.5-turbo and GPT-4 (with temperature 0) are very inconsistent forecasters." (section 6.3). In fact, there are the paper's results (only for GPT-4, since we did not reproduce GPT-3.5's results):
 
@@ -104,7 +85,7 @@ And there are our results, again for GPT-4:
 
 Our violations means are quite similar to the authors' results (except for monotonicity, for an unknown reason) thus we reach more or less the same conclusion: GPT-4 (with temperature 0) is a very inconsistent forecaster, but so is GPT-4 with temperature 0.5.
 
-The authors also state that "Temperature does not seem to have a significant effect on consistency." (section C.3.1). We have the same conclusion, strenghtened by the histograms generated by our Python script (included in the `reproduction_output` folder but not included in this Markdown for readability purposes).
+The authors also state that "Temperature does not seem to have a significant effect on consistency." (section C.3.1). We have the same conclusion, strenghtened by the histograms generated by our Python script (included in the `reproduction/reproduction_output` folder but not included in this Markdown for readability purposes).
 
 The percentages of strong violations that we found are far higher than the original study's results. This can be explained by the fact that our dataset contains a very small amount of questions compared to the original study. This doesn't affect any of the conclusions that we made in this section, since the violations means are still similar to the original study.
 
@@ -247,6 +228,18 @@ Replication shows that a weaker model is far more logically inconsistent, exactl
 - Highlight similarities and differences, if any.
 
 ## Conclusion
+
+### Reproduction
+
+We were successfully able to reproduce the original study's results on the four specified logical properties (bayes, negation, paraphrasing, monotonicity) but only with GPT-4-0314 because GPT-3.5-turbo-0301 is not available anymore. Like the original study, we found that GPT-4-0314 is a poor forecaster whether its temperature is set to 0 or to 0.5.
+
+However, our reproduction attempt is limited because:
+
+- Our dataset is only a small subset of the original study's. This explains why the "strong violation percentage" is always far higher in our reproduction attempt than it is in the original study. Nevertheless, our mean violations are close to the originals.
+- GPT-3.5-turbo-0301 is not available anymore, so we couldn't use it. Our reproduction attempt only contains results for GPT-4-0314.
+
+### Replication
+
 
 - Recap findings from the reproducibility and replicability sections.
 - Discuss limitations of your
