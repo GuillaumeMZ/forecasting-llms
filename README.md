@@ -4,7 +4,11 @@
 
 This study (“Evaluating Superhuman Models with Consistency Checks”, 2023) proposed a set of logical self-consistency tests for LLM forecasts: Negation, Paraphrasing, Monotonicity, Bayes’ rule.
 
-We focused on reproducing this experiment, then replicating it with other LLMs to evaluate the potential consistency differences between them.
+Our work includes:
+
+- Reproducing the original experiment using GPT-4-0314.
+
+- Replicating the experiment using new models (gpt-4.1-mini, DeepSeek-Chat) to assess cross-model differences.
 
 ## Reproducibility
 
@@ -48,7 +52,7 @@ We focused on reproducing this experiment, then replicating it with other LLMs t
         docker run -it -v ./a_folder_somewhere_on_your_machine:/app/reproduction_output forecasting_llms_repro
         ```
 
-     - Wait (a lot). Results will be visible in the `a_folder_somewhere_on_your_machine` folder.
+     - Execution time is substantial. Results will be visible in the `a_folder_somewhere_on_your_machine` folder.
 
 3. **Reproducing Results**  
 
@@ -60,16 +64,16 @@ We focused on reproducing this experiment, then replicating it with other LLMs t
 
 ### Encountered Issues
 
-- The authors didn't provide any code to run the experimentations. We had to write everything ourselves.
-- The authors didn't provide the list of questions itself but only the results, which included the questions (deeply nested in JSON files). Due to the complexity of these JSONs, we extracted the questions manually into our own JSONs to make the reproduction process simpler.
-- The original study contained **a lot** of questions. Because of limited time (and money), we decided to focus on a subset of these questions for the reproduction part.
+- The authors did not provide any code to run the experimentations. We had to write everything ourselves.
+- The authors did not provide the list of questions itself but only the results, which included the questions (deeply nested in JSON files). Due to the complexity of these JSONs, we extracted the questions manually into our own JSONs to make the reproduction process simpler.
+- The original study contained **very large numbers** of questions. Because of limited time (and money), we decided to focus on a subset of these questions for the reproduction part.
 - The authors used two different AI models in their study: GPT-3.5-turbo-0301 and GPT-4-0314. However, GPT-3.5-turbo-0301 is not available anymore on OpenRouter, so we focused on reproducing the results with GPT-4-0314 only.
 
 ### Is the Original Study Reproducible?
 
 We reproduced the four properties (bayes, monotonicity, negation, paraphrasing) on GPT-4-0314 with a subset of the original questions for each property.
 
-The paper states that "Both GPT-3.5-turbo and GPT-4 (with temperature 0) are very inconsistent forecasters." (section 6.3). In fact, there are the paper's results (only for GPT-4, since we did not reproduce GPT-3.5's results):
+The paper states that "Both GPT-3.5-turbo and GPT-4 (with temperature = 0.0) are very inconsistent forecasters." (section 6.3). In fact, there are the paper's results (only for GPT-4, since we did not reproduce GPT-3.5's results):
 
 |Model|Negation > 0.2|Negation mean|Paraphrasing > 0.2|Paraphrasing mean|Monotonicity > 0.2|Monotonicity mean|Bayes' rule > 0.2|Bayes' rule mean|
 |---|---|---|---|---|---|---|---|---|
@@ -102,11 +106,11 @@ The percentages of strong violations that we found are far higher than the origi
 
 ### Replication Execution
 
-We re-asked the same 50×5 questions using:
+We reused the same 50 base questions × 5 monotonic versions (year substitutions).
 
 model: "openai/gpt-4.1-mini", "deepseek/deepseek-chat"
 
-temp = 0.0
+temperature = 0.0
 
 runs per year = 3
 
@@ -224,9 +228,15 @@ However, our reproduction attempt is limited because:
 ### Replication
 
 
-- Recap findings from the reproducibility and replicability sections.
-- Discuss limitations of your
-- 
+Replication across new models confirms the central hypothesis:
+
+- More capable models violate fewer logical constraints.
+
+- GPT-4 is the most consistent; smaller models show significantly higher violation rates.
+
+- Increasing repetition improves stability but not ranking.
+
+- The overall ordering is preserved across all evaluations.
 
 ## Appendix: Generate 50 questions (base_questions_50.txt)
 
