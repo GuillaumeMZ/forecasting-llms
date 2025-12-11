@@ -228,16 +228,16 @@ However, our reproduction attempt is limited because:
 ### Replication
 
 
-Replication across new models confirms the central hypothesis:
+Replication results obtained from additional models support the central hypothesis:
 
-- More capable models violate fewer logical constraints.
+- Models with higher capability demonstrate fewer violations of the evaluated logical constraints.
 
-- GPT-4 is the most consistent; smaller models show significantly higher violation rates.
+- GPT-4 exhibits the highest level of consistency, while smaller or less capable models display substantially higher violation rates.
 
-- Increasing repetition improves stability but not ranking.
+- Increasing the number of repetitions reduces variability in the measurements, but does not alter the relative performance ordering.
 
-- The overall ordering is preserved across all evaluations.
-
+- The consistency ranking of the evaluated models remains stable across all experiments.
+  
 ## Appendix: Generate 50 questions (base_questions_50.txt)
 
 In the official monotonicity raw JSON, each item contains 5 versions of the same question (2025 / 2028 / 2032 / 2036 / 2040).
